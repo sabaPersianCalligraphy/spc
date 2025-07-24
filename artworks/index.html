@@ -1,0 +1,189 @@
+---
+layout: default
+title: Artworks
+permalink: /artworks/
+---
+
+
+<!-- Tabs -->
+<div
+  x-data="tabGallery()"
+  x-init="init()"
+  x-id="['tab']"
+  class="w-full mx-auto my-10"
+  x-cloak
+>
+    <!-- Tab List -->
+    <ul
+        x-ref="tablist"
+        @keydown.right.prevent.stop="$focus.wrap().next()"
+        @keydown.home.prevent.stop="$focus.first()"
+        @keydown.page-up.prevent.stop="$focus.first()"
+        @keydown.left.prevent.stop="$focus.wrap().prev()"
+        @keydown.end.prevent.stop="$focus.last()"
+        @keydown.page-down.prevent.stop="$focus.last()"
+        role="tablist"
+        class="flex items-stretch justify-center -mb-px overflow-x-auto"
+    >
+        <!-- Tab -->
+        <li>
+            <button
+                :id="$id('tab', whichChild($el.parentElement, $refs.tablist))"
+                @click="select($el.id)"
+                @mousedown.prevent
+                @focus="select($el.id)"
+                type="button"
+                :tabindex="isSelected($el.id) ? 0 : -1"
+                :aria-selected="isSelected($el.id)"
+                :class="isSelected($el.id) ? 'border-stone-400 text-slate-800 font-bold' : 'cursor-pointer hover:text-slate-800  text-slate-400 border-transparent'"
+                class="inline-flex rounded-t-lg border-t border-l border-r px-5 py-2.5 transition duration-150 ease-in-out"
+                role="tab"
+            >All Artworks</button>
+        </li>
+        <li>
+            <button
+                :id="$id('tab', whichChild($el.parentElement, $refs.tablist))"
+                @click="select($el.id)"
+                @mousedown.prevent
+                @focus="select($el.id)"
+                type="button"
+                :tabindex="isSelected($el.id) ? 0 : -1"
+                :aria-selected="isSelected($el.id)"
+                :class="isSelected($el.id) ? 'border-stone-400 text-slate-800 font-bold' : 'cursor-pointer hover:text-slate-800  text-slate-400 border-transparent'"
+                class="inline-flex rounded-t-lg border-t border-l border-r px-5 py-2.5 transition duration-150 ease-in-out"
+                role="tab"
+            >Original Artworks</button>
+        </li>
+
+        <li>
+            <button
+                :id="$id('tab', whichChild($el.parentElement, $refs.tablist))"
+                @click="select($el.id)"
+                @mousedown.prevent
+                @focus="select($el.id)"
+                type="button"
+                :tabindex="isSelected($el.id) ? 0 : -1"
+                :aria-selected="isSelected($el.id)"
+                :class="isSelected($el.id) ? 'border-stone-400 text-slate-800 font-bold' : 'cursor-pointer hover:text-slate-800  text-slate-400 border-transparent'"
+                class="inline-flex rounded-t-lg border-t border-l border-r px-5 py-2.5 transition duration-150 ease-in-out"
+                role="tab"
+            >Callectors Edition</button>
+        </li>
+    </ul>
+
+    <!-- Panels -->
+    <div role="tabpanels" class="border-t border-stone-300">
+        <!-- Panel -->
+        <section
+            x-show="isSelected($id('tab', whichChild($el, $el.parentElement)))"
+            :aria-labelledby="$id('tab', whichChild($el, $el.parentElement))"
+            role="tabpanel"
+            class="pt-24"
+        >
+            <div class="grid grid-cols-1 gap-x-8 gap-y-0 sm:grid-cols-2 md:grid-cols-3">
+                <template x-for="(art, index) in artworks" :key="index">
+                    <a
+                    :href="art.permalink"
+                    class="flex flex-col items-center overflow-hidden transition duration-150 ease-in-out hover:border hover:border-slate-300 hover:shadow"
+                    style="height: 80%"
+                    >
+                    <!-- Image -->
+                    <img
+                        :src="art.image"
+                        :alt="art.title"
+                        class="flex-1 object-cover w-auto rounded h-2/3"
+                    >
+
+                    <div class="w-full py-1 text-center">
+                        <h5 class="text-sm font-semibold text-gray-800" x-text="art.title"></h5>
+                        <p class="text-xs text-gray-600" x-text="art.size"></p>
+                    </div>
+                    </a>
+                </template>
+            </div>
+        </section>
+
+        <section
+            x-show="isSelected($id('tab', whichChild($el, $el.parentElement)))"
+            :aria-labelledby="$id('tab', whichChild($el, $el.parentElement))"
+            role="tabpanel"
+            class="pt-24"
+        >
+            <div class="grid grid-cols-1 gap-x-8 gap-y-0 sm:grid-cols-2 md:grid-cols-3">
+                <template x-for="(art, index) in artworks" :key="index">
+                    <template x-if="art.category === 'original'">
+                        <a
+                        :href="art.permalink"
+                        class="flex flex-col items-center overflow-hidden transition duration-150 ease-in-out hover:border hover:border-slate-300 hover:shadow"
+                        style="height: 80%"
+                        >
+                        <!-- Image -->
+                        <img
+                            :src="art.image"
+                            :alt="art.title"
+                            class="flex-1 object-cover w-auto rounded h-2/3"
+                        >
+                        
+                        <div class="w-full py-1 text-center">
+                            <h5 class="text-sm font-semibold text-gray-800" x-text="art.title"></h5>
+                            <p class="text-xs text-gray-600" x-text="art.size"></p>
+                        </div>
+                        </a>
+                    </template>
+                </template>
+            </div>
+        </section>
+
+        <section
+            x-show="isSelected($id('tab', whichChild($el, $el.parentElement)))"
+            :aria-labelledby="$id('tab', whichChild($el, $el.parentElement))"
+            role="tabpanel"
+            class="pt-24"
+        >
+            <div class="grid grid-cols-1 gap-x-8 gap-y-0 sm:grid-cols-2 md:grid-cols-3">
+                <template x-for="(art, index) in artworks" :key="index">
+                    <template x-if="art.category === 'collectors'">
+                        <a
+                        :href="art.permalink"
+                        class="flex flex-col items-center overflow-hidden transition duration-150 ease-in-out hover:border hover:border-slate-300 hover:shadow"
+                        style="height: 80%"
+                        >
+                        <!-- Image -->
+                        <img
+                            :src="art.image"
+                            :alt="art.title"
+                            class="flex-1 object-cover w-auto rounded h-2/3"
+                        >
+                        
+                        <div class="w-full py-1 text-center">
+                            <h5 class="text-sm font-semibold text-gray-800" x-text="art.title"></h5>
+                            <p class="text-xs text-gray-600" x-text="art.size"></p>
+                        </div>
+                        </a>
+                    </template>
+                </template>
+            </div>
+        </section>
+    </div>
+</div>
+<script>
+  function tabGallery() {
+    return {
+      selectedId: null,
+      artworks: [],
+      init() {
+        this.artworks = {{ site.data.artworks | jsonify }};
+        this.$nextTick(() => this.select(this.$id('tab', 1)));
+      },
+      select(id) {
+        this.selectedId = id;
+      },
+      isSelected(id) {
+        return this.selectedId === id;
+      },
+      whichChild(el, parent) {
+        return Array.from(parent.children).indexOf(el) + 1;
+      }
+    };
+  }
+</script>

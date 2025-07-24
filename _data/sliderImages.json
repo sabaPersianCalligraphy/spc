@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "title": "Still Wet — I",
+    "image": "https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/sillWet/thumbnail/stillWet-S-02.jpg",
+    "size": "19\" × 26\" (48.26 cm × 66.04 cm)",
+    "category": "original",
+    "permalink": "/artworks/still-wet-v1/"
+  },
+  {
+    "id": 2,
+    "title": "Samā‘-Red",
+    "image": "https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/sama/thumbnail/sama-Red-01-S-01.jpg",
+    "size": "19\" × 26\" (48.26 cm × 66.04 cm)",
+    "category": "original",
+    "permalink": "/artworks/sama/"
+  },
+  {
+    "id": 3,
+    "title": "Samā‘-Green",
+    "image": "https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/sama/thumbnail/sama-green-01-S-01.jpg",
+    "size": "19\" × 26\" (48.26 cm × 66.04 cm)",
+    "category": "original",
+    "permalink": "/artworks/sama/"
+  },
+  {
+    "id": 4,
+    "title": "Woman Life Freedom",
+    "image": "https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/WomanLifeFreedom/thumbnail/Woman-Life-Freedom-S-01.jpg",
+    "size": "19\" × 26\" (48.26 cm × 66.04 cm)",
+    "category": "original",
+    "permalink": "/artworks/woman-life-freedom/"
+  },
+  {
+    "id": 5,
+    "title": "The Pure Flow",
+    "image": "https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/ThePureFlow/thumbnail/the-pure-flow-s-01.jpg",
+    "size": "14\" × 19\" (35.56 cm × 48.26 cm)",
+    "category": "original",
+    "permalink": "/artworks/the-pure-flow/"
+  },
+  {
+    "id": 6,
+    "title": "The Pearl Within",
+    "image": "https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/ThePearlWithin/thumbnail/ThePearlWithin-s-02.jpg",
+    "size": "19\" × 26\" (48.26 cm × 66.04 cm)",
+    "category": "original",
+    "permalink": "/artworks/the-pearl-within/"
+  },
+  {
+    "id": 7,
+    "title": "Embracing Life's Beauty - I",
+    "image": "https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-01.jpg",
+    "size": "23\" × 32\" (58.42 cm × 81.28 cm)",
+    "category": "original",
+    "permalink": "/artworks/embracing-life-beauty-v1/"
+  },
+  {
+    "id": 8,
+    "title": "Embracing Life's Beauty - II",
+    "image": "https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-green-01.jpg",
+    "size": "19.68\" × 27.55\" (50 cm × 70 cm)",
+    "category": "original",
+    "permalink": "/artworks/embracing-life-beauty-v2/"
+  },
+  {
+    "id": 9,
+    "title": "Beyond Words",
+    "image": "https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/BeyondWords/thumbnail/BeyondWords-S-01.jpg",
+    "size": "18\" × 26\" (45.72 cm × 66.04 cm)",
+    "category": "original",
+
+    "permalink": "/artworks/beyond-words/"
+  }
+]

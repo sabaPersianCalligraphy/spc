@@ -1,0 +1,106 @@
+---
+layout: default
+---
+
+<article class="w-full space-y-12">
+    <nav class="text-sm text-left md:text-right" aria-label="Breadcrumb">
+        <ol class="inline-flex p-0 space-x-1 list-none">
+            <li>
+                <a href="/" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110">Home</a>
+                <span>/</span>
+            </li>
+               
+            <li>
+                <a href="/artworks/" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110">Arworks Gallery</a>
+                <span>/</span>
+            </li>
+              
+            <li class="font-semibold text-stone-800">{{ page.title }}</li>
+        </ol>
+    </nav>
+
+    <h2 class="text-center md:text-left">{{ page.title }}</h2>
+
+    <div class="flex flex-col flex-col-reverse items-center h-full md:flex-row">
+        <div class="flex-1 space-y-3">
+            <p class="text-sm text-gray-600">
+                <span class="font-bold text-stone-800">Category:</span>
+                <span>{{ page.category }}</span>
+            </p>
+            <p class="text-sm text-gray-600">
+                <span class="font-bold text-stone-800">Calligrapher:</span>
+                <span>{{ page.calligrapher }}</span>
+            </p>
+            <p class="text-sm text-gray-600">
+                <span class="font-bold text-stone-800">Illumination (Tazhib):</span>
+                <span>{{ page.illumination }}</span>
+            </p>
+            <p class="text-sm text-gray-600">
+                <span class="font-bold text-stone-800">Poet:</span>
+                <span>{{ page.poet }}</span>
+            </p>
+            <p class="text-sm text-gray-600">
+                <span class="font-bold text-stone-800">Poem:</span>
+                <span>{{ page.poem }}</span>
+            </p>
+            <p class="text-sm text-gray-600">
+                <span class="font-bold text-stone-800">Year:</span>
+                <span>{{ page.year }}</span>
+            </p>
+            <p class="text-sm text-gray-600">
+                <span class="font-bold text-stone-800">Size:</span>
+                <span>{{ page.size }}</span>
+            </p>
+            <p class="text-sm text-gray-600">
+                <span class="font-bold text-stone-800">Materials:</span>
+                <span>{{ page.materials }}</span>
+            </p>
+            <p class="text-sm text-gray-600">
+                <span class="font-bold text-stone-800">Technique:</span>
+                <span>{{ page.technique }}</span>
+            </p>
+            <!-- <p class="text-sm text-gray-600">
+                <span class="font-bold text-stone-800">Frame:</span>
+                <span>{{ page.frame }}</span>
+            </p> -->
+            <p class="text-sm text-gray-600">
+                <span class="font-bold text-stone-800">Passe-partouts:</span>
+                <span>{{ page.passe-partouts }}</span>
+            </p>
+            <p class="text-sm text-gray-600">
+                <span class="font-bold text-stone-800">Price:</span>
+                <span>{{ page.price }}</span>
+            </p>
+            <p class="text-sm text-gray-600">
+                <span class="font-bold text-stone-800">Certificate of Authenticity:</span>
+                <span>Each piece comes with a signed Certificate of Authenticity for provenance.</span>
+            </p>
+            <!-- <p class="text-sm text-gray-600">
+                <span class="font-bold text-stone-800">Shipping:</span>
+                <span>{{ page.shipping }}</span>
+            </p> -->
+        </div>
+
+        <div class="mb-16 md:mb-0">{% include image-show.html %}</div>
+    </div>
+
+    <div class="">
+        {{ content }}
+        <!-- <div>
+            {% if page.published %}
+                <p class="text-xs text-right text-stone-400">Published on: {{ page.published }}</p>
+            {% endif %}
+        </div> -->
+    </div>
+    <div class="px-2 space-y-6 md:px-32 mt-42">
+        <div>
+            <h3 class="text-center">
+               Need More Info About This Artwork?
+            </h3>
+            <h4 class="text-center">
+               We’re Here to Answer Your Questions.
+            </h4>
+        </div>
+        {% include contactForm.html %}
+    </div>
+</article>
