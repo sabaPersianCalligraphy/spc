@@ -45,15 +45,16 @@ height: 35rem;
 }
 
 .logo-title {
-  font-size: 3rem; /* text-6xl = 60px */
+  font-size: 3.5rem; /* text-6xl = 60px */
   font-weight: 900 !important;
+  line-height: 3;
 }
 
 .logo-subtitle {
   position: absolute;
   left: 0;
-  top: 3rem;
-  font-size: 1.25rem;
+  top: 3.2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 

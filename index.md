@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<h1 class="mb-24 text-center racing-sans-one-regular">Welcome to SaBa's Art Gallery</h1>
+<h1 class="mb-24 text-center racing-sans-one-regular">Welcome to SaBa Persian Calligraphy</h1>
 
 <article>
     <div class="float-right w-full mx-auto mb-20 md:mb-10 md:lg:w-1/2 lg:mt-0">
