@@ -13,7 +13,7 @@ keywords:
   - mystical expression
   - spiritual calligraphy
 
-image: https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/BeyondWords/thumbnail/BeyondWords-S-01.jpg
+image: https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/BeyondWords/thumbnail/BeyondWords-S-01.jpg
 layout: artwork
 permalink: /artworks/beyond-words/
 slug: beyond-words

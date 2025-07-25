@@ -14,7 +14,7 @@ keywords:
   - art of introspection
   - spiritual symbolism
 
-image: https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/ThePearlWithin/thumbnail/ThePearlWithin-s-02.jpg
+image: https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/ThePearlWithin/thumbnail/ThePearlWithin-s-02.jpg
 layout: artwork
 permalink: /artworks/the-pearl-within/
 slug: the-pearl-within

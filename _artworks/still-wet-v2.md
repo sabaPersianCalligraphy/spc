@@ -13,7 +13,7 @@ keywords:
   - silence and stillness
   - contemporary Iranian art
 
-image: https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/sillWet/thumbnail/stilWet-S-01.jpg
+image: https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/sillWet/thumbnail/stilWet-v2-S-01.jpg
 layout: artwork
 permalink: /artworks/still-wet-v2/
 slug: still-wet-v2
@@ -31,6 +31,7 @@ shipping: Free
 poet: Sohrab Sepehri (1928-1980)
 poem:  Life is getting wet over and over.
 published: July 21, 2025
+videoSrc: https://www.youtube.com/embed/wSHzpOvMKA0
 ---
 
 

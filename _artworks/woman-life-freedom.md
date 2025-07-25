@@ -12,7 +12,7 @@ keywords:
     - visual storytelling
     - exile and memory
     - visual resistance
-image: https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/WomanLifeFreedom/thumbnail/Woman-Life-Freedom-S-01.jpg
+image: https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/WomanLifeFreedom/thumbnail/Woman-Life-Freedom-S-01.jpg
 layout: artwork
 permalink: /artworks/woman-life-freedom/
 slug: woman-life-freedom

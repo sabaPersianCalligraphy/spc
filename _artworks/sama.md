@@ -13,7 +13,7 @@ keywords:
   - whirling dervish
   - spiritual symbolism
 
-image: https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/sama/thumbnail/sama-Red-01-S-01.jpg
+image: https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/sama/thumbnail/sama-Red-01-S-01.jpg
 layout: artwork
 permalink: /artworks/sama/
 slug: sama

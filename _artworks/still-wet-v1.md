@@ -13,7 +13,7 @@ keywords:
   - silence and stillness
   - contemporary Iranian art
 
-image: https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/sillWet/thumbnail/stilWet-S-01.jpg
+image: https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/sillWet/thumbnail/stilWet-S-01.jpg
 layout: artwork
 permalink: /artworks/still-wet-v1/
 slug: still-wet-v1

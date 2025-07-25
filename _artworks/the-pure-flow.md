@@ -13,7 +13,7 @@ keywords:
   - flowing script
   - Iranian visual poetry
 
-image: https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/ThePureFlow/thumbnail/the-pure-flow-s-01.jpg
+image: https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/ThePureFlow/thumbnail/the-pure-flow-s-01.jpg
 layout: artwork
 permalink: /artworks/the-pure-flow/
 slug: the-pure-flow

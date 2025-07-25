@@ -12,7 +12,7 @@ keywords:
   - Iranian modern art
   - inner growth
   - visual poetry
-image: https://storage.googleapis.com/artworks_img_public_bucket/sabaArtGallery/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-01.jpg
+image: https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-01.jpg
 layout: artwork
 permalink: /artworks/embracing-life-beauty-v1/
 slug: embracing-life-beauty-v1
