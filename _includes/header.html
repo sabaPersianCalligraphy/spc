@@ -42,7 +42,7 @@
             <button
                 @mouseenter="aboutOpen = true"
                 @mouseleave="aboutOpen = false"
-                class="hover:font-bold hover:text-stone-800 {% if page.url == '/about/saba/' or page.url == '/about/saba-s-artistic-statement/' or page.url == '/about/narvan/' or page.url == '/about/narvan-s-artistic-statement/' or page.url == '/about/persian-calligraphy/' or page.url == '/about/persian-illumination/' or page.url == '/about/method-and-materials/' %} font-bold text-stone-800{% else %}text-slate-400{% endif %}"
+                class="hover:font-bold hover:text-stone-800 {% if page.url == '/about/saba/' or page.url == '/about/saba-s-artist-statement/' or page.url == '/about/narvan/' or page.url == '/about/narvan-s-artist-statement/' or page.url == '/about/persian-calligraphy/' or page.url == '/about/persian-illumination/' or page.url == '/about/method-and-materials/' %} font-bold text-stone-800{% else %}text-slate-400{% endif %}"
                 >
                 About
             </button>
@@ -57,7 +57,7 @@
 
                 <p class="font-semibold text-gray-300">SaBa</p>
                 <a href="/about/saba/" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 block px-4 py-2 text-sm text-slate-600 {% if page.url == '/about/saba/' %} font-bold text-stone-800{% endif %}">SaBa</a>
-                <a href="/about/saba-s-artistic-statement/" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 block px-4 py-2 text-sm text-slate-600 {% if page.url == '/about/saba-s-artistic-statement/' %} font-bold text-stone-800{% endif %}">Artist Statement</a>
+                <a href="/about/saba-s-artist-statement/" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 block px-4 py-2 text-sm text-slate-600 {% if page.url == '/about/saba-s-artist-statement/' %} font-bold text-stone-800{% endif %}">Artist Statement</a>
                 <a href="/about/method-and-materials/" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 block px-4 py-2 text-sm text-slate-600 {% if page.url == '/about/method-and-materials/' %} font-bold text-stone-800{% endif %}">Method & Materials</a>
                 
                 <hr>
@@ -65,7 +65,7 @@
                 <p class="font-semibold text-gray-300">Narvan</p>
 
                 <a href="/about/narvan/" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 block px-4 py-2 text-sm text-slate-600 {% if page.url == '/about/narvan/' %} font-bold text-stone-800{% endif %}">Narvan</a>
-                <a href="/about/narvan-s-artistic-statement/" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 block px-4 py-2 text-sm text-slate-600 {% if page.url == '/about/narvan-s-artistic-statement/' %} font-bold text-stone-800{% endif %}">Artist Statement</a>
+                <a href="/about/narvan-s-artist-statement/" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 block px-4 py-2 text-sm text-slate-600 {% if page.url == '/about/narvan-s-artist-statement/' %} font-bold text-stone-800{% endif %}">Artist Statement</a>
                 <hr>
                 <a href="/about/persian-calligraphy/" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 block px-4 py-2 text-sm text-slate-600 {% if page.url == '/about/persian-calligraphy/' %} font-bold text-stone-800{% endif %}">Persian Calligraphy</a>
                 <a href="/about/persian-illumination/" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 block px-4 py-2 text-sm text-slate-600 {% if page.url == '/about/persian-illumination/' %} font-bold text-stone-800{% endif %}">Persian Illumination</a>
@@ -147,7 +147,7 @@
             <div class="mt-1">
                 <button 
                     @click="aboutOpen = !aboutOpen" 
-                    class="w-full text-left px-2 py-2 hover:text-stone-800 {% if page.url == '/about/saba/' or page.url == '/about/saba-s-artistic-statement/' or page.url == '/about/narvan/' or page.url == '/about/narvan-s-artistic-statement/' or page.url == '/about/persian-calligraphy/' or page.url == '/about/persian-illumination/' or page.url == '/about/method-and-materials/' %} font-bold text-stone-800{% else %}text-slate-400{% endif %}"
+                    class="w-full text-left px-2 py-2 hover:text-stone-800 {% if page.url == '/about/saba/' or page.url == '/about/saba-s-artist-statement/' or page.url == '/about/narvan/' or page.url == '/about/narvan-s-artist-statement/' or page.url == '/about/persian-calligraphy/' or page.url == '/about/persian-illumination/' or page.url == '/about/method-and-materials/' %} font-bold text-stone-800{% else %}text-slate-400{% endif %}"
                 >
                     About
                 </button>
@@ -159,12 +159,12 @@
                 >
                     <p class="font-semibold text-gray-300">SaBa</p>
                         <a href="/about/saba/" class="block px-2 py-1 text-slate-500 hover:text-stone-800 {% if page.url == '/about/saba/' %} font-bold text-stone-800{% endif %}">SaBa</a>
-                        <a href="/about/saba-s-artistic-statement/" class="block px-2 py-1 text-slate-500 hover:text-stone-800 {% if page.url == '/about/saba-s-artistic-statement/' %} font-bold text-stone-800{% endif %}">Artist Statement</a>
+                        <a href="/about/saba-s-artist-statement/" class="block px-2 py-1 text-slate-500 hover:text-stone-800 {% if page.url == '/about/saba-s-artist-statement/' %} font-bold text-stone-800{% endif %}">Artist Statement</a>
                         <a href="/about/method-and-materials/" class="block px-2 py-1 text-slate-500 hover:text-stone-800 {% if page.url == '/about/method-and-materials/' %} font-bold text-stone-800{% endif %}">Method & Materials</a>
                     <hr>
                     <p class="font-semibold text-gray-300">Narvan</p>
                         <a href="/about/narvan/" class="block px-2 py-1 text-slate-500 hover:text-stone-800 {% if page.url == '/about/narvan/' %} font-bold text-stone-800{% endif %}">Narvan</a>
-                        <a href="/about/narvan-s-artistic-statement/" class="block px-2 py-1 text-slate-500 hover:text-stone-800 {% if page.url == '/about/about/narvan-s-artistic-statement/' %} font-bold text-stone-800{% endif %}">Artist Statement</a>
+                        <a href="/about/narvan-s-artist-statement/" class="block px-2 py-1 text-slate-500 hover:text-stone-800 {% if page.url == '/about/about/narvan-s-artist-statement/' %} font-bold text-stone-800{% endif %}">Artist Statement</a>
                     <hr>
                         <a href="/about/persian-calligraphy/" class="block px-2 py-1 text-slate-500 hover:text-stone-800 {% if page.url == '/about/persian-calligraphy/' %} font-bold text-stone-800{% endif %}">Persian Calligraphy</a>
                         <a href="/about/persian-illumination/" class="block px-2 py-1 text-slate-500 hover:text-stone-800 {% if page.url == '/about/persian-illumination/' %} font-bold text-stone-800{% endif %}">Persian Illumination</a>
