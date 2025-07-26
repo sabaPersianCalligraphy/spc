@@ -122,3 +122,6 @@ hr {
   border: none;
   margin: 0.5rem 0;
 }
+.my-space-x-8 {
+  padding-inline: 3rem;
+}
