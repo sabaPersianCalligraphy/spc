@@ -1,87 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }} – Saba Art Gallery</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} – Saba Art Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% seo %}
+    {% seo %}
 
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
-    <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
 
-  <!-- custom styles -->
-  <link rel="stylesheet" href="/assets/css/customStyles.css">
+    <!-- custom styles -->
+    <link rel="stylesheet" href="/assets/css/customStyles.css">
 
-  {% if page.keywords %}
-    <meta name="keywords" content="{{ page.keywords | join: ', ' }}">
-  {% endif %}
+    {% if page.keywords %}
+      <meta name="keywords" content="{{ page.keywords | join: ', ' }}">
+    {% endif %}
 
-  {% if jekyll.environment == "production" %}
-    {% include analytics.html %}
-  {% endif %}
-
-
-</head>
-<body class="flex flex-col w-full min-h-screen text-base font-Roboto font-stone-800 sm:w-11/12 md:w-9/12 sm:mx-auto">
-
-    <!-- Header -->
-    <div>{% include header.html %}</div>
-
-     <!-- Main Content -->
-    <main class="flex-1 w-full px-4 pt-20 pb-36">
-      {{ content }}
-    </main>
-
-    <!-- Footer -->
-    <div>{% include footer.html %}</div>
+    {% if jekyll.environment == "production" %}
+      {% include analytics.html %}
+    {% endif %}
 
 
-    <script>
-  function contactForm() {
-    const a = Math.floor(Math.random() * 10);
-    const b = Math.floor(Math.random() * 10);
+  </head>
+  <body class="flex flex-col w-full min-h-screen text-base font-Roboto font-stone-800 sm:w-11/12 md:w-9/12 sm:mx-auto">
 
-    return {
-      name: '',
-      email: '',
-      subject: '',
-      message: '',
-      a,
-      b,
-      answer: '',
-      errors: {},
+      <!-- Header -->
+      <div>{% include header.html %}</div>
 
-      validate() {
-        this.errors = {};
+      <!-- Main Content -->
+      <main class="flex-1 w-full px-4 pt-20 pb-36">
+        {{ content }}
+      </main>
 
-        if (!this.name.trim()) this.errors.name = 'Please enter your name.';
-        if (!this.email.trim() || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(this.email)) this.errors.email = 'Please enter a valid email address.';
-        if (!this.subject.trim()) this.errors.subject = 'Please enter a subject.';
-        if (!this.message.trim()) this.errors.message = 'Please enter a message.';
+      <!-- Footer -->
+      <div>{% include footer.html %}</div>
 
-        if (parseInt(this.answer) !== this.a + this.b) {
-          this.errors.answer = 'Incorrect answer. Please try again.';
-        }
+    
+    <script src="{{ '/assets/js/custome-alpine.js' | relative_url }}"></script>
+    
+    {% include cookie.html %}
 
-        return Object.keys(this.errors).length === 0;
-      },
-
-      submit(e) {
-        if (!this.validate()) {
-          e.preventDefault();
-        }
-      }
-    };
-  }
-</script>
-
-</body>
+  </body>
 </html>
