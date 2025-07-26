@@ -33,15 +33,16 @@
   <body class="flex flex-col w-full min-h-screen text-base font-Roboto font-stone-800 sm:w-11/12 md:w-9/12 sm:mx-auto">
 
       <!-- Header -->
-      <div>{% include header.html %}</div>
-
+      <header class="flex items-center justify-between w-full mt-10"></header>
+          {% include header.html %}
+      </header>
       <!-- Main Content -->
-      <main class="flex-1 w-full px-4 pt-20 pb-36">
+      <main class="flex-1 px-4 mt-24 mb-46">
         {{ content }}
       </main>
 
       <!-- Footer -->
-      <div>{% include footer.html %}</div>
+      <footer class="">{% include footer.html %}</footer>
 
     
     <script src="{{ '/assets/js/custome-alpine.js' | relative_url }}"></script>
