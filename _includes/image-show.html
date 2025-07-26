@@ -1,14 +1,19 @@
 <div
     x-data="imageGallery(artworkData)"
-    class="container h-120"
+    class="container w-full h-auto md:w-auto md:h-120"
 >
     <!-- Thumbnail viewer -->
-    <div class="relative h-full mx-auto mb-2 md:ml-2" x-show="images.length">
+    <div class="relative w-full h-auto mx-auto md:h-full" x-show="images.length">
         <img
             :src="images[currentIndex].picture"
             :alt="artwork.title"
-            class="w-3/5 h-auto mx-auto cursor-pointer md:w-auto md:h-full"
+            class="hidden w-full h-auto mx-auto cursor-pointer md:block md:w-auto md:h-full"
             @click="showFull = true"
+        >
+        <img
+            :src="images[currentIndex].picture"
+            :alt="artwork.title"
+            class="block w-full h-auto mx-auto cursor-pointer md:hidden md:w-auto md:h-full"
         >
         <div class="absolute top-0 right-0 text-xs bg-black/60 text-white px-2 py-0.5 rounded">
             <span x-text="currentIndex + 1"></span> of <span x-text="images.length"></span>
