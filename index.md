@@ -31,20 +31,20 @@ title: Home
             <div>
                 <h3 class="hidden lg:block">Opening Words:</h3>
                 <h4 class="block lg:hidden">Opening Words:</h4>
-                <p class="text-sm md:text-base lg:text-lg">My works are abstract art that manifest through the form of Siyah-Mashq in Persian Nastaʿlīq script.</p>
-                <p class="text-sm md:text-base lg:text-lg">Not writings meant to be read by Persian speakers, but compositions intended to evoke reflection.</p>
-                <p class="text-sm md:text-base lg:text-lg">They are forms to be seen, not texts to be read, though they are made of Persian letters and words.</p>
+                <p class="text-sm md:text-base lg:text-lg">My works are abstract expressions that emerge at the intersection of language and form, shaped through Siyah-Mashq in Persian Nastaʿlīq script.</p>
+                <p class="text-sm md:text-base lg:text-lg">Engage these pieces visually, not linguistically. They are not traditional writings to be read, but visual composition shaped to evoke thought, emotion, and presence.</p>
+                <p class="text-sm md:text-base lg:text-lg">Most people are taught to read words, not truly see them. We invite viewers to shift their experience from language to presence, from text to texture, and from reading to seeing.</p>
+                <p class="text-sm md:text-base lg:text-lg">Visual language enters the realm where words can no longer reach.</p>
             </div>
             <div>
                 <h3 class="hidden lg:block">Following Words:</h3>
                 <h4 class="block lg:hidden">Following Words:</h4>
-                <p class="text-sm md:text-base lg:text-lg">In these works, the letters and words are not chosen randomly or arbitrarily.</p>
-                <p class="text-sm md:text-base lg:text-lg">They are selected verses from the poetic world of unparalleled Persian poets, each carrying a message that is linguistic, profound, and unique.</p>
+                <p class="text-sm md:text-base lg:text-lg">In these works, every letter and word is chosen with deliberate care and intention.</p>
+                <p class="text-sm md:text-base lg:text-lg">Each verse is a chosen gem from the vast treasury of Persian poetry, carrying a message that is profound, lyrical, and uniquely resonant.</p>
             </div>
-            <p class="text-sm md:text-base lg:text-lg">A paradox? Perhaps.</p>
-            <div class="">
-                <p class="text-sm md:text-base lg:text-lg">But like a choreographer who creates rhythm and harmony through the arrangement of movements, or like an abstract painter who conveys intellectual and emotional depth through geometric forms, regular or irregular, I create harmony, order, and motion using the letters and words of Nastaʿlīq.</p>
-                <p class="text-sm md:text-base lg:text-lg">Therefore, my audience spans a broad spectrum, from those who know only the Persian language to those who do not, but who understand the language of visual form.</p>
+            <div>
+                <p class="text-sm md:text-base lg:text-lg">Like a choreographer shaping rhythm and harmony through the movement of bodies, I create harmony, order, and motion using the letters and words of Nastaʿlīq.</p>
+                <p class="text-sm md:text-base lg:text-lg">My audience spans a broad spectrum, from those who speak Persian to those who may not know the language, but understand the universal language of visual form.</p>
             </div>
         </div>
     </div>
