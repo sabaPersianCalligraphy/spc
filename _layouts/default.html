@@ -4,23 +4,16 @@
     <meta charset="UTF-8">
     <title>{{ page.title }} – Saba Art Gallery</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
     {% seo %}
-
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
       <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
-
     <!-- custom styles -->
     <link rel="stylesheet" href="/assets/css/customStyles.css">
-
     {% if page.keywords %}
       <meta name="keywords" content="{{ page.keywords | join: ', ' }}">
     {% endif %}
@@ -28,8 +21,6 @@
     {% if jekyll.environment == "production" %}
       {% include analytics.html %}
     {% endif %}
-
-
   </head>
   <body class="flex flex-col w-full min-h-screen text-base font-Roboto font-stone-800 sm:w-11/12 md:w-9/12 sm:mx-auto">
 

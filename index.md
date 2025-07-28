@@ -1,6 +1,28 @@
 ---
-layout: default
 title: Home
+description: Abstract Persian calligraphy in Siyah-Mashq Nastaʿlīq—visual poetry beyond words, blending tradition, form, and contemporary expression.
+keywords:
+  - persian calligraphy
+  - abstract art
+  - siyah-mashq
+  - nastaliq
+  - Persian Nastaʿlīq
+  - siyah-mashq
+  - Rumi
+  - persian poetry
+  - persian calligraphy commission
+  - art gallery
+  - artists
+  - iranian art
+  - iran
+  - Contemporary calligraphy
+  - SaBa Art Gallery
+  - iranians artists
+  - spiritual calligraphy
+  - calligraphy wall arts
+
+image: https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/BeyondWords/thumbnail/BeyondWords-S-01.jpg
+layout: default
 ---
 
 <h1 class="mb-24 text-center racing-sans-one-regular">Welcome to SaBa Persian Calligraphy</h1>
@@ -32,7 +54,7 @@ title: Home
                 <h3 class="hidden lg:block">Opening Words:</h3>
                 <h4 class="block lg:hidden">Opening Words:</h4>
                 <p class="text-sm md:text-base lg:text-lg">My works are abstract expressions that emerge at the intersection of language and form, shaped through Siyah-Mashq in Persian Nastaʿlīq script.</p>
-                <p class="text-sm md:text-base lg:text-lg">Engage these pieces visually, not linguistically. They are not traditional writings to be read, but visual composition shaped to evoke thought, emotion, and presence.</p>
+                <p class="text-sm md:text-base lg:text-lg">Engage with these artworks visually, not linguistically. They are not traditional writings to be read, but visual composition shaped to evoke thought, emotion, and presence.</p>
                 <p class="text-sm md:text-base lg:text-lg">Most people are taught to read words, not truly see them. We invite viewers to shift their experience from language to presence, from text to texture, and from reading to seeing.</p>
                 <p class="text-sm md:text-base lg:text-lg">Visual language enters the realm where words can no longer reach.</p>
             </div>
