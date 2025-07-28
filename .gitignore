@@ -1,0 +1,33 @@
+# Jekyll output and caches
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Bundler
+.bundle/
+vendor/
+*.gem
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Node (if using PostCSS / Tailwind via npm)
+node_modules/
+package-lock.json
+
+# Ruby Bundler files
+Gemfile.lock
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# VSCode or other editors
+.vscode/
+.idea/

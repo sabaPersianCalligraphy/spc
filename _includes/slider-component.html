@@ -1,0 +1,63 @@
+<!-- Splide CSS & JS (include once globally in head/footer if possible) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script>
+
+<!-- Alpine.js Splide component -->
+<div
+  x-data="{
+    init() {
+      new Splide(this.$refs.splide, {
+        perPage: 1,
+        type: 'loop',
+        arrows: true,
+        autoplay: true,
+        interval: 8000,
+        speed: 500,
+        pauseOnHover: true,
+        rewind: true,
+        gap: '0.5rem',
+        breakpoints: {
+          640: { perPage: 1 },
+          768: { perPage: 1 },
+          1024: { perPage: 1 },
+        },
+      }).mount();
+    },
+  }"
+>
+  <section x-ref="splide" class="px-1 splide md:px-14" aria-label="custom-slider">
+    <div class="splide__track">
+      <ul class="splide__list">
+        {{ include.content }}
+      </ul>
+    </div>
+  </section>
+</div>
+
+<style>
+  .splide__arrow {
+    background: transparent;
+    color: white;
+    border-radius: 50%;
+    font-size: 1rem;
+    opacity: 0.5;
+    transition: background 0.3s ease;
+    margin: -0.75rem;
+    z-index: 10;
+  }
+
+  .splide__arrow:hover {
+    background: rgb(34, 34, 34);
+    opacity: 1;
+  }
+.splide__pagination
+ {
+    bottom: -1.2rem;
+    margin: auto;
+ }
+
+  .splide__pagination__page.is-active {
+    background: #333;
+  }
+
+</style>

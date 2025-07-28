@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://sabapersiancalligraphy.com/</loc>
+  </url>
+
+  <!-- Static pages -->
+  <url><loc>https://sabapersiancalligraphy.com/about/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/about/narvan/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/about/narvan-s-artist-statement/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/about/persian-calligraphy/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/about/persian-illumination/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/about/saba/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/about/saba-s-artist-statement/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/commission/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/contact/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/copyright/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/about/method-and-materials/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/thank-you/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/artworks/</loc></url>
+
+  <!-- Artworks (assuming pretty permalinks) -->
+  <url><loc>https://sabapersiancalligraphy.com/workshops/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/workshops/persian-calligraphy/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/workshops/starch-pressing-technique/</loc></url>
+
+  <!-- Artworks (assuming pretty permalinks) -->
+  <url><loc>https://sabapersiancalligraphy.com/artworks/beyond-words/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/artworks/embracing-life-beauty-v1/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/artworks/embracing-life-beauty-v2/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/artworks/sama/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/artworks/still-wet-v1/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/artworks/the-pearl-within/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/artworks/the-pure-flow/</loc></url>
+  <url><loc>https://sabapersiancalligraphy.com/artworks/woman-life-freedom/</loc></url>
+
+  <!-- Legal Pages -->
+  <url><loc>https://saba@sabapersiancalligraphy.com/legal-pages/privacy-policy/</loc></url>
+  <url><loc>https://saba@sabapersiancalligraphy.com/legal-pages/refund-policy/</loc></url>
+  <url><loc>https://saba@sabapersiancalligraphy.com/legal-pages/terms-&-conditions/</loc></url>
+  <url><loc>https://saba@sabapersiancalligraphy.com/legal-pages/disclaimer/</loc></url>
+  <url><loc>https://saba@sabapersiancalligraphy.com/legal-pages/cookie-policy/</loc></url>
+  <url><loc>https://saba@sabapersiancalligraphy.com/legal-pages/copyright-notice/</loc></url>
+</urlset>

@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<nav class="mb-6 text-sm text-stone-500" aria-label="Breadcrumb">
+  <ol class="flex flex-wrap items-center space-x-1">
+    <li>
+      <a href="/" class="hover:underline text-stone-600">Home</a>
+    </li>
+    <li>/</li>
+
+    {% assign segments = page.url | split: '/' | reject: '' %}
+    {% assign path = "" %}
+
+    {% for segment in segments %}
+      {% assign path = path | append: "/" | append: segment %}
+      {% assign label = segment | replace: '-', ' ' | capitalize %}
+
+      {% if forloop.index == 1 %}
+        <li>
+          <a href="/about/" class="capitalize hover:underline text-stone-600">About</a>
+        </li>
+        <li>/</li>
+      
+        <li>
+          <a href="/about/persian-calligraphy/" class="capitalize hover:underline text-stone-600">
+            Persian Calligraphy
+          </a>
+        </li>
+        <li>/</li>
+      {% elsif forloop.last %}
+        <li class="font-semibold capitalize text-stone-800">
+          {{ segment | replace: '-', ' ' }}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+</nav>
+
+
+<article class="max-w-4xl py-12 mx-auto prose">
+  <h1 class="mb-4 text-3xl font-bold">{{ page.title }}</h1>
+
+  {% if page.image %}
+    <img src="{{ page.image }}" alt="{{ page.title }}" class="mb-6 rounded-lg">
+  {% endif %}
+
+  {{ content }}
+
+  <!-- <p class="mt-8">
+    <a href="/about/persian-calligraphy/" class="text-sm text-blue-600 hover:underline">← Back to all posts</a>
+  </p> -->
+</article>

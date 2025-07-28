@@ -1,0 +1,23 @@
+
+<div
+  x-data="{ show: !document.cookie.includes('cookieAccepted=true') }"
+  x-show="show"
+  x-transition
+  class="fixed z-50 flex flex-col items-center justify-between p-4 space-y-2 text-sm bg-white border rounded-md shadow-md border-stone-400 bottom-1/4 left-4 right-4 md:left-8 md:right-8 md:flex-row md:space-y-0"
+  x-cloak
+>
+  <span>
+    This site uses cookies to improve your experience. 
+    <a href="/legal-pages/privacy-policy/" class="underline">Learn more</a>.
+  </span>
+  <button
+    @click="
+      document.cookie = 'cookieAccepted=true; path=/; max-age=' + 60*60*24*365;
+      show = false;
+      loadAnalytics();
+    "
+    class="px-4 py-1 text-white bg-black rounded hover:bg-gray-800"
+  >
+    Accept & Close
+  </button>
+</div>

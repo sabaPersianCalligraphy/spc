@@ -1,0 +1,17 @@
+{
+  "title": "Samā‘",
+  "images": [
+    {
+      "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/sama/thumbnail/sama-Red-01-S-01.jpg",
+      "caption": "Samā‘-Red"
+    },
+    {
+      "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/sama/thumbnail/sama-green-01-S-01.jpg",
+      "caption": "Samā‘-Green"
+    },
+    {
+      "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/sama/largeImages/sama-Red-01-D-01.jpg",
+      "caption": "View Details"
+    }
+  ]
+}

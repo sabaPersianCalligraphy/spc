@@ -1,0 +1,39 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+
+{% comment %}
+  Manually collect subpages under /about/ (but not /about/ itself).
+  GitHub Pages doesn't support complex where_exp filters.
+{% endcomment %}
+
+{% assign aboutPages = "" | split: "" %}
+
+{% for page in site.pages %}
+  {% if page.url != '/about/' and page.url contains '/about/' %}
+    {% assign aboutPages = aboutPages | push: page %}
+  {% endif %}
+{% endfor %}
+
+{% assign aboutPages = aboutPages | sort: "title" %}
+
+<section class="grid gap-6 mt-12 md:grid-cols-2">
+  {% if aboutPages.size > 0 %}
+    {% for page in aboutPages %}
+      <div class="p-6 border rounded border-slate-300 hover:border-slate-600 hover:shadow">
+        <a href="{{ page.url }}">
+          <h4 class="text-center transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110">
+            {{ page.title }}
+          </h4>
+        </a>
+        {% if page.description %}
+          <p class="mt-1 text-sm text-stone-600">{{ page.description }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  {% else %}
+    <p class="text-center text-stone-500 col-span-full">No subpages found.</p>
+  {% endif %}
+</section>

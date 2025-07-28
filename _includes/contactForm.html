@@ -1,0 +1,105 @@
+<form 
+  action="https://formsubmit.co/cc593909c4c9c6ebcb88089770aeef74" 
+  method="POST" 
+  class="flex flex-col gap-y-8"
+  id="contactForm"
+  x-data="contactForm()"
+  @submit="submit"
+>
+  <!-- Hidden: page or artwork title -->
+  <input type="hidden" name="pageTitle" value="{{ page.title }}">
+
+  <!-- Name -->
+  <div>
+    <label for="name" class="block mb-2 text-sm font-medium text-stone-900">Your Name</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      x-model="name"
+      class="bg-stone-50 border border-stone-300 text-stone-900 text-sm rounded focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+      placeholder="Your name..."
+      required
+    >
+    <p x-show="errors.name" class="mt-1 text-sm text-red-500" x-text="errors.name"></p>
+  </div>
+
+  <!-- Email -->
+  <div>
+    <label for="email" class="block mb-2 text-sm font-medium text-stone-900">Your Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      x-model="email"
+      class="bg-stone-50 border border-stone-300 text-stone-900 text-sm rounded focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+      placeholder="name@example.com"
+      required
+    >
+    <p x-show="errors.email" class="mt-1 text-sm text-red-500" x-text="errors.email"></p>
+  </div>
+
+  <!-- Subject (editable) -->
+  <div>
+    <label for="subject" class="block mb-2 text-sm font-medium text-stone-900">Subject</label>
+    <input
+      type="text"
+      id="subject"
+      name="subject"
+      x-model="subject"
+      class="block w-full p-3 text-sm border rounded text-stone-900 border-stone-300 bg-stone-50 focus:ring-primary-500 focus:border-primary-500"
+      placeholder="Let us know how we can help you"
+      required
+    >
+    <p x-show="errors.subject" class="mt-1 text-sm text-red-500" x-text="errors.subject"></p>
+  </div>
+
+  <!-- Message -->
+  <div class="sm:col-span-2">
+    <label for="message" class="block mb-2 text-sm font-medium text-stone-900">Your Message</label>
+    <textarea
+      id="message"
+      name="message"
+      rows="6"
+      x-model="message"
+      class="block p-2.5 w-full text-sm text-stone-900 bg-stone-50 rounded border border-stone-300 focus:ring-primary-500 focus:border-primary-500"
+      placeholder="Leave a comment..."
+      required
+    ></textarea>
+    <p x-show="errors.message" class="mt-1 text-sm text-red-500" x-text="errors.message"></p>
+  </div>
+  <!-- CAPTCHA -->
+  <div>
+    <label for="captcha" class="block mb-2 text-sm font-medium text-stone-900">
+      What is <span x-text="a"></span> + <span x-text="b"></span>?
+    </label>
+    <input
+      type="number"
+      id="captcha"
+      x-model="answer"
+      class="bg-stone-50 border border-stone-300 text-stone-900 text-sm rounded focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+      placeholder="Your answer..."
+      required
+    >
+    <p class="mt-1 text-sm italic text-stone-500">
+      Just a quick question to make sure you're human — thank you for your patience!
+    </p>
+    <p x-show="errors.answer" class="mt-1 text-sm text-red-500" x-text="errors.answer"></p>
+  </div>
+
+  <!-- Hidden Formsubmit fields -->
+  <input type="hidden" name="_subject" :value="`New message: ${subject}`">
+  <input type="hidden" name="_next" value="https://saba@sabapersiancalligraphy.com/thank-you/">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="text" name="_honey" style="display:none">
+  <input type="hidden" name="_template" value="table">
+  
+  <div class="flex justify-end">
+    <button
+      type="submit"
+      class="px-5 py-3 text-sm font-medium text-center rounded cursor-pointer text-stone-100 bg-stone-800 sm:w-fit hover:bg-stone-100 hover:text-stone-800 hover:border hover:border-stone-300 focus:ring-4 focus:outline-none focus:ring-primary-300"
+    >
+      Send Message
+    </button>
+  </div>
+</form>

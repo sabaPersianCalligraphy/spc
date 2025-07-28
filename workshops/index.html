@@ -1,0 +1,42 @@
+---
+title: Workshops
+description: A collection of workshops exploring Persian calligraphy and cultural expression through art.
+keywords:
+  - persian calligraphy workshops
+  - learning calligraphy
+  - traditional art
+  - cultural workshops
+  - calligraphy classes
+image: 
+layout: default
+permalink: /workshops/
+---
+
+{% comment %}
+  Collect subpages manually into an array because where_exp is not fully supported in GitHub Pages.
+{% endcomment %}
+{% assign workshopsPages = "" | split: "" %}
+
+{% for page in site.pages %}
+  {% if page.url != '/workshops/' and page.url contains '/workshops/' %}
+    {% assign workshopsPages = workshopsPages | push: page %}
+  {% endif %}
+{% endfor %}
+
+{% assign workshopsPages = workshopsPages | sort: "title" %}
+
+<section class="grid gap-6 mt-12 md:grid-cols-2">
+  {% for page in workshopsPages %}
+    <div class="p-6 border rounded border-slate-300 hover:border-slate-600 hover:shadow">
+      <a href="{{ page.url }}">
+        <h4 class="text-center transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110">
+          {{ page.title }}
+        </h4>
+      </a>
+      {% if page.description %}
+        <p class="mt-1 text-sm text-stone-600">{{ page.description }}</p>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>
+
