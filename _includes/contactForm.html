@@ -68,29 +68,11 @@
     ></textarea>
     <p x-show="errors.message" class="mt-1 text-sm text-red-500" x-text="errors.message"></p>
   </div>
-  <!-- CAPTCHA -->
-  <div>
-    <label for="captcha" class="block mb-2 text-sm font-medium text-stone-900">
-      What is <span x-text="a"></span> + <span x-text="b"></span>?
-    </label>
-    <input
-      type="number"
-      id="captcha"
-      x-model="answer"
-      class="bg-stone-50 border border-stone-300 text-stone-900 text-sm rounded focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
-      placeholder="Your answer..."
-      required
-    >
-    <p class="mt-1 text-sm italic text-stone-500">
-      Just a quick question to make sure you're human — thank you for your patience!
-    </p>
-    <p x-show="errors.answer" class="mt-1 text-sm text-red-500" x-text="errors.answer"></p>
-  </div>
 
   <!-- Hidden Formsubmit fields -->
   <input type="hidden" name="_subject" :value="`New message: ${subject}`">
   <input type="hidden" name="_next" value="https://saba@sabapersiancalligraphy.com/thank-you/">
-  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_captcha" value="true">
   <input type="text" name="_honey" style="display:none">
   <input type="hidden" name="_template" value="table">
   
