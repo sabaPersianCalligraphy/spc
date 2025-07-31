@@ -12,9 +12,20 @@ export async function handler(event) {
   const data = await res.json();
 
   if (!data.success) {
-    return { statusCode: 400, body: "Failed reCAPTCHA validation." };
+    return {
+      statusCode: 400,
+      body: JSON.stringify({
+        success: false,
+        message: "Failed reCAPTCHA validation."
+      })
+    };
   }
 
-  // Do something with the form data here (store, email, etc.)
-  return { statusCode: 200, body: "Form submitted successfully." };
+  return {
+    statusCode: 200,
+    body: JSON.stringify({
+      success: true,
+      message: "Form submitted successfully."
+    })
+  };
 }

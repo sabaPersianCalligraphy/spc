@@ -20,12 +20,11 @@ document.addEventListener('DOMContentLoaded', function () {
   const recaptchaError = document.getElementById('recaptchaError');
 
   if (form) {
-    form.addEventListener('submit', async function (e) {
+    form.addEventListener('submit', async function handleSubmit(e) {
       e.preventDefault();
 
       const token = grecaptcha.getResponse();
 
-      // Reset error message
       if (recaptchaError) recaptchaError.textContent = '';
 
       if (!token) {
@@ -44,13 +43,15 @@ document.addEventListener('DOMContentLoaded', function () {
       const result = await verify.json();
 
       if (result.success) {
-        form.submit(); // Submit if reCAPTCHA is valid
+        form.removeEventListener('submit', handleSubmit);
+        form.submit();
       } else {
         if (recaptchaError) {
-          recaptchaError.textContent = "reCAPTCHA verification failed. Please try again.";
+          recaptchaError.textContent = "reCAPTCHA failed. Please try again.";
         }
       }
     });
   }
 });
+
 
