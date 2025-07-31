@@ -14,3 +14,35 @@ if (document.cookie.includes('cookieAccepted=true')) {
     loadAnalytics();
 }
 
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.getElementById('contactForm');
+
+  if (form) {
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+
+      const token = grecaptcha.getResponse();
+
+      if (!token) {
+        alert("Please complete the reCAPTCHA.");
+        return;
+      }
+
+      const verify = await fetch('/.netlify/functions/verify-recaptcha', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ token }),
+      });
+
+      const result = await verify.json();
+
+      if (result.success) {
+        form.submit(); // re-submit form after passing reCAPTCHA
+      } else {
+        alert("reCAPTCHA failed. Please try again.");
+      }
+    });
+  }
+});

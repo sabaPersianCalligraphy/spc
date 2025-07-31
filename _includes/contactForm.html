@@ -1,14 +1,13 @@
 <form 
-  name="contact" 
-  method="POST" 
-  data-netlify="true" 
-  netlify-honeypot="bot-field" 
-  netlify-recaptcha
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
   action="/thank-you/"
   class="flex flex-col gap-y-8" 
   id="contactForm"
 >
-  <!-- Honeypot for spam bots -->
+  <!-- Honeypot for spam bots data-netlify-recaptcha="true" -->
   <p class="hidden">
     <label>
       Don’t fill this out if you’re human: <input name="bot-field" type="text" />
@@ -58,8 +57,11 @@
       required
     ></textarea>
   </div>
-  <!-- reCAPTCHA widget -->
-  <div data-netlify-recaptcha="true" required></div>
+  <!-- reCAPTCHA widget <div data-netlify-recaptcha="true"></div> -->
+   <!-- Google reCAPTCHA widget -->
+  <div class="mt-4">
+    <div class="g-recaptcha" data-sitekey="6Ldkm5UrAAAAANDlhGKnnaD-al9vnahU8BfVsJJb"></div>
+  </div>
 
   <div class="flex justify-end">
     <button
