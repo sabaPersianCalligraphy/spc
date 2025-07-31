@@ -15,43 +15,30 @@ if (document.cookie.includes('cookieAccepted=true')) {
 }
 
 
-document.addEventListener('DOMContentLoaded', function () {
-  const form = document.getElementById('contactForm');
-  const recaptchaError = document.getElementById('recaptchaError');
+document.getElementById('contactForm').addEventListener('submit', async function (e) {
+  e.preventDefault();
 
-  if (form) {
-    form.addEventListener('submit', async function handleSubmit(e) {
-      e.preventDefault();
-
-      const token = grecaptcha.getResponse();
-
-      if (recaptchaError) recaptchaError.textContent = '';
-
-      if (!token) {
-        if (recaptchaError) {
-          recaptchaError.textContent = "Please complete the reCAPTCHA.";
-        }
-        return;
-      }
-
-      const verify = await fetch('/.netlify/functions/verify-recaptcha', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ token }),
-      });
-
-      const result = await verify.json();
-
-      if (result.success) {
-        form.removeEventListener('submit', handleSubmit);
-        form.submit();
-      } else {
-        if (recaptchaError) {
-          recaptchaError.textContent = "reCAPTCHA failed. Please try again.";
-        }
-      }
-    });
+  const token = grecaptcha.getResponse();
+  if (!token) {
+    document.getElementById('recaptchaError').textContent = 'Please verify the reCAPTCHA.';
+    return;
   }
+
+  const response = await fetch('/.netlify/functions/verify-recaptcha', {
+    method: 'POST',
+    body: JSON.stringify({ token }),
+  });
+
+  const data = await response.json();
+
+  if (!data.success) {
+    document.getElementById('recaptchaError').textContent = data.message;
+    return;
+  }
+
+  // submit the form after recaptcha passed
+  e.target.submit();
 });
+
 
 

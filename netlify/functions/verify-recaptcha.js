@@ -1,6 +1,5 @@
 export async function handler(event) {
   const { token } = JSON.parse(event.body);
-
   const secret = process.env.RECAPTCHA_SECRET_KEY;
 
   const res = await fetch("https://www.google.com/recaptcha/api/siteverify", {
@@ -14,18 +13,14 @@ export async function handler(event) {
   if (!data.success) {
     return {
       statusCode: 400,
-      body: JSON.stringify({
-        success: false,
-        message: "Failed reCAPTCHA validation."
-      })
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ success: false, message: "Failed reCAPTCHA validation." })
     };
   }
 
   return {
     statusCode: 200,
-    body: JSON.stringify({
-      success: true,
-      message: "Form submitted successfully."
-    })
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ success: true, message: "Form submitted successfully." })
   };
 }
