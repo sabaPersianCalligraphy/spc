@@ -15,9 +15,9 @@ if (document.cookie.includes('cookieAccepted=true')) {
 }
 
 
-
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.getElementById('contactForm');
+  const recaptchaError = document.getElementById('recaptchaError');
 
   if (form) {
     form.addEventListener('submit', async function (e) {
@@ -25,8 +25,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
       const token = grecaptcha.getResponse();
 
+      // Reset error message
+      if (recaptchaError) recaptchaError.textContent = '';
+
       if (!token) {
-        alert("Please complete the reCAPTCHA.");
+        if (recaptchaError) {
+          recaptchaError.textContent = "Please complete the reCAPTCHA.";
+        }
         return;
       }
 
@@ -39,10 +44,13 @@ document.addEventListener('DOMContentLoaded', function () {
       const result = await verify.json();
 
       if (result.success) {
-        form.submit(); // re-submit form after passing reCAPTCHA
+        form.submit(); // Submit if reCAPTCHA is valid
       } else {
-        alert("reCAPTCHA failed. Please try again.");
+        if (recaptchaError) {
+          recaptchaError.textContent = "reCAPTCHA verification failed. Please try again.";
+        }
       }
     });
   }
 });
+
