@@ -1,13 +1,22 @@
 <form 
-  action="https://formsubmit.co/cc593909c4c9c6ebcb88089770aeef74" 
-  method="POST" 
-  class="flex flex-col gap-y-8"
-  id="contactForm"
-  x-data="contactForm()"
-  @submit="submit"
+name="contact" 
+netlify 
+method="POST" 
+class="flex flex-col gap-y-8" 
+id="contactForm" 
+x-data="contactForm()" 
+@submit="submit"
 >
-  <!-- Hidden: page or artwork title -->
+
+  <!-- Netlify hidden field -->
+  <input type="hidden" name="form-name" value="contact" />
   <input type="hidden" name="pageTitle" value="{{ page.title }}">
+  <input type="hidden" name="redirect" value="/thank-you/">
+
+  <!-- Honeypot for spam bots -->
+  <div style="display:none">
+    <label>Don't fill this out if you're human: <input name="bot-field"></label>
+  </div>
 
   <!-- Name -->
   <div>
@@ -39,7 +48,7 @@
     <p x-show="errors.email" class="mt-1 text-sm text-red-500" x-text="errors.email"></p>
   </div>
 
-  <!-- Subject (editable) -->
+  <!-- Subject -->
   <div>
     <label for="subject" class="block mb-2 text-sm font-medium text-stone-900">Subject</label>
     <input
@@ -69,13 +78,6 @@
     <p x-show="errors.message" class="mt-1 text-sm text-red-500" x-text="errors.message"></p>
   </div>
 
-  <!-- Hidden Formsubmit fields -->
-  <input type="hidden" name="_subject" :value="`New message: ${subject}`">
-  <input type="hidden" name="_next" value="https://sabapersiancalligraphy.com/thank-you/">
-  <input type="hidden" name="_captcha" value="true">
-  <input type="text" name="_honey" style="display:none">
-  <input type="hidden" name="_template" value="table">
-  
   <div class="flex justify-end">
     <button
       type="submit"
