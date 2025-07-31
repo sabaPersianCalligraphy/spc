@@ -15,30 +15,19 @@ if (document.cookie.includes('cookieAccepted=true')) {
 }
 
 
-document.getElementById('contactForm').addEventListener('submit', async function (e) {
-  e.preventDefault();
+document.getElementById('contactForm').addEventListener('submit', function (e) {
+  const recaptcha = document.querySelector('.g-recaptcha-response');
+  const error = document.getElementById('recaptchaError');
 
-  const token = grecaptcha.getResponse();
-  if (!token) {
-    document.getElementById('recaptchaError').textContent = 'Please verify the reCAPTCHA.';
-    return;
+  if (!recaptcha || !recaptcha.value.trim()) {
+    e.preventDefault();
+    error.style.display = 'block';
+  } else {
+    error.style.display = 'none';
   }
-
-  const response = await fetch('/.netlify/functions/verify-recaptcha', {
-    method: 'POST',
-    body: JSON.stringify({ token }),
-  });
-
-  const data = await response.json();
-
-  if (!data.success) {
-    document.getElementById('recaptchaError').textContent = data.message;
-    return;
-  }
-
-  // submit the form after recaptcha passed
-  e.target.submit();
 });
+
+
 
 
 
