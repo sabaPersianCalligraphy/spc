@@ -1,22 +1,23 @@
 <form 
-name="contact" 
-netlify 
-method="POST" 
-class="flex flex-col gap-y-8" 
-id="contactForm" 
-x-data="contactForm()" 
-@submit="submit"
+  name="contact" 
+  method="POST" 
+  data-netlify="true" 
+  netlify-honeypot="bot-field" 
+  action="/thank-you/"
+  class="flex flex-col gap-y-8" 
+  id="contactForm"
 >
+  <!-- Honeypot for spam bots -->
+  <p class="hidden">
+    <label>
+      Don’t fill this out if you’re human: <input name="bot-field" type="text" />
+    </label>
+  </p>
 
-  <!-- Netlify hidden field -->
+  <!-- Netlify required hidden field -->
   <input type="hidden" name="form-name" value="contact" />
   <input type="hidden" name="pageTitle" value="{{ page.title }}">
-  <input type="hidden" name="_next" value="https://sabapersiancalligraphy.com/thank-you/">
 
-  <!-- Honeypot for spam bots -->
-  <div style="display:none">
-    <label>Don't fill this out if you're human: <input name="bot-field"></label>
-  </div>
 
   <!-- Name -->
   <div>
@@ -25,12 +26,10 @@ x-data="contactForm()"
       type="text"
       id="name"
       name="name"
-      x-model="name"
       class="bg-stone-50 border border-stone-300 text-stone-900 text-sm rounded focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
       placeholder="Your name..."
       required
     >
-    <p x-show="errors.name" class="mt-1 text-sm text-red-500" x-text="errors.name"></p>
   </div>
 
   <!-- Email -->
@@ -40,12 +39,10 @@ x-data="contactForm()"
       type="email"
       id="email"
       name="email"
-      x-model="email"
       class="bg-stone-50 border border-stone-300 text-stone-900 text-sm rounded focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
       placeholder="name@example.com"
       required
     >
-    <p x-show="errors.email" class="mt-1 text-sm text-red-500" x-text="errors.email"></p>
   </div>
 
   <!-- Subject -->
@@ -55,12 +52,10 @@ x-data="contactForm()"
       type="text"
       id="subject"
       name="subject"
-      x-model="subject"
       class="block w-full p-3 text-sm border rounded text-stone-900 border-stone-300 bg-stone-50 focus:ring-primary-500 focus:border-primary-500"
       placeholder="Let us know how we can help you"
       required
     >
-    <p x-show="errors.subject" class="mt-1 text-sm text-red-500" x-text="errors.subject"></p>
   </div>
 
   <!-- Message -->
@@ -70,12 +65,10 @@ x-data="contactForm()"
       id="message"
       name="message"
       rows="6"
-      x-model="message"
       class="block p-2.5 w-full text-sm text-stone-900 bg-stone-50 rounded border border-stone-300 focus:ring-primary-500 focus:border-primary-500"
       placeholder="Leave a comment..."
       required
     ></textarea>
-    <p x-show="errors.message" class="mt-1 text-sm text-red-500" x-text="errors.message"></p>
   </div>
 
   <div class="flex justify-end">
