@@ -1,7 +1,7 @@
 title: SaBa Art Gallery
 description: A showcase of unique fine art pieces by SaBa, reflecting personal expression and artistic vision.
 baseurl: ""
-url: "https://sabapersiancalligraphy.com"
+url: "https://www.sabapersiancalligraphy.com"
 
 permalink: pretty
 markdown: kramdown
@@ -21,3 +21,9 @@ defaults:
       path: ""
     values:
       sitemap: true
+
+  - scope:
+      path: ""
+      type: "404"
+    values:
+      sitemap: false
