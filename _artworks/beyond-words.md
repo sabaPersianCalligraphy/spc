@@ -12,6 +12,15 @@ keywords:
   - heart-centered connection
   - mystical expression
   - spiritual calligraphy
+  - art commission
+  - art commission websites
+  - art commission sheet
+  - art commission form
+  - best art commission websites
+  - art commission contract
+  - art commission prices
+  - average art commission prices
+  - persian calligraphy commission
 
 image: https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/BeyondWords/thumbnail/BeyondWords-S-01.jpg
 layout: artwork
