@@ -37,7 +37,6 @@ keywords:
   - iranian art
   - traditional iranian art
   - modern iranian art
-  - iran
   - SaBa Art Gallery
 
 image: https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/BeyondWords/thumbnail/BeyondWords-S-01.jpg
