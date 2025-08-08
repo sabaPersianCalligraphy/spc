@@ -43,11 +43,14 @@ image: https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-ca
 layout: default
 ---
 
-<h1 class="mb-24 text-center racing-sans-one-regular">Welcome to SaBa Persian Calligraphy</h1>
 
-<article>
-    <div class="float-right w-full mx-auto mb-20 md:mb-10 lg:w-1/2 lg:mt-0">
+<h3 class="text-center text-gray-500 racing-sans-one-regular">Welcome to</h3>
+<h1 class="text-center text-gray-800 md:-mt-6 racing-sans-one-regular">SaBa Abstract Art:</h1>
+<h3 class="text-center text-gray-500 md:-mt-2 racing-sans-one-regular">A Journey Through</h3>
+<h1 class="mb-24 text-center text-gray-700 md:-mt-8 racing-sans-one-regular">Persian Nastalīq Scripts</h1>
 
+<article class="clearfix">
+    <div class="w-full mx-auto mb-20 lg:float-right md:mb-10 lg:w-1/2 lg:mt-0">
         {% capture slider_content %}
             {% for item in site.data.sliderImages %}
                 <li class="m-0 splide__slide">
@@ -62,31 +65,26 @@ layout: default
                 </li>
             {% endfor %}
         {% endcapture %}
-
         {% include slider-component.html content=slider_content %}
-
     </div>
-    <div class="clear-left">
-        <div class="flex flex-col w-full md:w-auto gap-y-4">
-            <div>
-                <h3 class="hidden lg:block">Opening Words:</h3>
-                <h4 class="block lg:hidden">Opening Words:</h4>
-                <p class="text-sm md:text-base lg:text-lg">My works are abstract expressions that emerge at the intersection of language and form, shaped through Siyah-Mashq in Persian Nastaʿlīq script.</p>
-                <p class="text-sm md:text-base lg:text-lg">Engage with these artworks visually, not linguistically. They are not traditional writings to be read, but visual composition shaped to evoke thought, emotion, and presence.</p>
-                <p class="text-sm md:text-base lg:text-lg">Most people are taught to read words, not truly see them. We invite viewers to shift their experience from language to presence, from text to texture, and from reading to seeing.</p>
-                <p class="text-sm md:text-base lg:text-lg">Visual language enters the realm where words can no longer reach.</p>
-            </div>
-            <div>
-                <h3 class="hidden lg:block">Following Words:</h3>
-                <h4 class="block lg:hidden">Following Words:</h4>
-                <p class="text-sm md:text-base lg:text-lg">In these works, every letter and word is chosen with deliberate care and intention.</p>
-                <p class="text-sm md:text-base lg:text-lg">Each verse is a chosen gem from the vast treasury of Persian poetry, carrying a message that is profound, lyrical, and uniquely resonant.</p>
-            </div>
-            <div>
-                <p class="text-sm md:text-base lg:text-lg">Like a choreographer shaping rhythm and harmony through the movement of bodies, I create harmony, order, and motion using the letters and words of Nastaʿlīq.</p>
-                <p class="text-sm md:text-base lg:text-lg">My audience spans a broad spectrum, from those who speak Persian to those who may not know the language, but understand the universal language of visual form.</p>
-            </div>
+    <div class="space-y-4 lg:clear-left">
+        <div class="space-y-4 ">
+            <h3 class="hidden lg:block">Opening Words:</h3>
+            <h4 class="block lg:hidden">Opening Words:</h4>
+            <p class="text-sm md:text-base lg:text-lg">My works are abstract expressions that emerge at the intersection of language and form, shaped through Siyah-Mashq in Persian Nastaʿlīq script.</p>
+            <p class="text-sm md:text-base lg:text-lg">Engage with these artworks visually, not linguistically. They are not traditional writings to be read, but visual composition shaped to evoke thought, emotion, and presence.</p>
+            <p class="text-sm md:text-base lg:text-lg">Most people are taught to read words, not truly see them. We invite viewers to shift their experience from language to presence, from text to texture, and from reading to seeing.</p>
+            <p class="text-sm md:text-base lg:text-lg">Visual language enters the realm where words can no longer reach.</p>
+        </div>
+        <div class="space-y-4 ">
+            <h3 class="hidden lg:block">Following Words:</h3>
+            <h4 class="block lg:hidden">Following Words:</h4>
+            <p class="text-sm md:text-base lg:text-lg">In these works, every letter and word is chosen with deliberate care and intention.</p>
+            <p class="text-sm md:text-base lg:text-lg">Each verse is a chosen gem from the vast treasury of Persian poetry, carrying a message that is profound, lyrical, and uniquely resonant.</p>
+        </div>
+        <div class="space-y-4">
+            <p class="text-sm md:text-base lg:text-lg">Like a choreographer shaping rhythm and harmony through the movement of bodies, I create harmony, order, and motion using the letters and words of Nastaʿlīq.</p>
+            <p class="text-sm md:text-base lg:text-lg">My audience spans a broad spectrum, from those who speak Persian to those who may not know the language, but understand the universal language of visual form.</p>
         </div>
     </div>
-
 </article>

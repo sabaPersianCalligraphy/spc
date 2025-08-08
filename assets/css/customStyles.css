@@ -29,6 +29,42 @@ height: 30rem;
 .h-140{
 height: 35rem;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Space of 0.25rem (space-y-1) */
+.space-y-1 > *:not(:last-child) {
+    margin-bottom: 0.25rem; /* Equivalent to 1 in Tailwind */
+}
+
+/* Space of 0.5rem (space-y-2) */
+.space-y-2 > *:not(:last-child) {
+    margin-bottom: 0.5rem; /* Equivalent to 2 in Tailwind */
+}
+
+/* Space of 0.75rem (space-y-3) */
+.space-y-3 > *:not(:last-child) {
+    margin-bottom: 0.75rem; /* Equivalent to 3 in Tailwind */
+}
+
+/* Space of 1rem (space-y-4) */
+.space-y-4 > *:not(:last-child) {
+    margin-bottom: 1rem; /* Equivalent to 4 in Tailwind */
+}
+
+/* Space of 1.25rem (space-y-5) */
+.space-y-5 > *:not(:last-child) {
+    margin-bottom: 1.25rem; /* Equivalent to 5 in Tailwind */
+}
+
+/* Space of 2rem (space-y-8) */
+.space-y-8 > *:not(:last-child) {
+    margin-bottom: 2rem; /* Equivalent to 8 in Tailwind */
+}
 
 
 /* Text */
