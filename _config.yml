@@ -27,3 +27,6 @@ defaults:
       type: "404"
     values:
       sitemap: false
+
+include:
+  - _redirects
