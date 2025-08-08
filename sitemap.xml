@@ -3,6 +3,9 @@
   <!-- Homepage -->
   <url>
     <loc>https://sabapersiancalligraphy.com/</loc>
+    <lastmod>2025-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <!-- Static pages -->

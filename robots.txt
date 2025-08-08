@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sabapersiancalligraphy.com/sitemap.xml
