@@ -1,5 +1,5 @@
 ---
-title: Home
+title: "Abstract Art & Persian Calligraphy"
 description: Abstract Persian calligraphy in Siyah-Mashq Nastaʿlīq—visual poetry beyond words, blending tradition, form, and contemporary expression.
 keywords:
   - persian calligraphy
