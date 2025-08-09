@@ -1,7 +1,7 @@
 title: SaBa Art Gallery
-description: A showcase of unique fine art pieces by SaBa, reflecting personal expression and artistic vision.
+description: "Persian calligraphy & modern abstract art by SaBa. An online art gallery for unique artworks, artists, and collectors worldwide."
 baseurl: ""
-url: "https://www.sabapersiancalligraphy.com"
+url: "https://sabapersiancalligraphy.com"
 
 permalink: pretty
 markdown: kramdown
@@ -27,6 +27,3 @@ defaults:
       type: "404"
     values:
       sitemap: false
-
-include:
-  - _redirects
