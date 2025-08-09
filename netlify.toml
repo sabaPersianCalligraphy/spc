@@ -1,17 +1,58 @@
+# --- Aliases → Primary (single hop) ---
+
+# abstractartsaba.com
+[[redirects]]
+from = "http://abstractartsaba.com/*"
+to   = "https://sabapersiancalligraphy.com/:splat"
+status = 301
+force  = true
+
 [[redirects]]
 from = "https://abstractartsaba.com/*"
-to = "https://sabapersiancalligraphy.com/:splat"
+to   = "https://sabapersiancalligraphy.com/:splat"
 status = 301
-force = true
+force  = true
+
+[[redirects]]
+from = "http://www.abstractartsaba.com/*"
+to   = "https://sabapersiancalligraphy.com/:splat"
+status = 301
+force  = true
+
+[[redirects]]
+from = "https://www.abstractartsaba.com/*"
+to   = "https://sabapersiancalligraphy.com/:splat"
+status = 301
+force  = true
+
+# sabaartgallery.com
+[[redirects]]
+from = "http://sabaartgallery.com/*"
+to   = "https://sabapersiancalligraphy.com/:splat"
+status = 301
+force  = true
 
 [[redirects]]
 from = "https://sabaartgallery.com/*"
-to = "https://sabapersiancalligraphy.com/:splat"
+to   = "https://sabapersiancalligraphy.com/:splat"
 status = 301
-force = true
+force  = true
 
 [[redirects]]
-from = "https://hilarious-bonbon-1bffcc.netlify.app/*"
-to = "https://sabapersiancalligraphy.com/:splat"
+from = "http://www.sabaartgallery.com/*"
+to   = "https://sabapersiancalligraphy.com/:splat"
 status = 301
-force = true
+force  = true
+
+[[redirects]]
+from = "https://www.sabaartgallery.com/*"
+to   = "https://sabapersiancalligraphy.com/:splat"
+status = 301
+force  = true
+
+# Netlify subdomain
+[[redirects]]
+from = "https://hilarious-bonbon-1bffcc.netlify.app/*"
+to   = "https://sabapersiancalligraphy.com/:splat"
+status = 301
+force  = true
