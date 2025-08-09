@@ -47,8 +47,11 @@ layout: default
 <h3 class="text-center text-gray-500 racing-sans-one-regular">Welcome to</h3>
 <h1 class="text-center text-gray-800 md:-mt-6 racing-sans-one-regular">SaBa Abstract Art:</h1>
 <h3 class="text-center text-gray-500 md:-mt-2 racing-sans-one-regular">A Journey Through</h3>
-<h1 class="mb-24 text-center text-gray-700 md:-mt-8 racing-sans-one-regular">Persian Nastalīq Scripts</h1>
+<h1 class="text-center text-gray-700 md:-mt-8 racing-sans-one-regular">Persian Nastalīq Scripts</h1>
 
+<p class="pt-20 pb-32 text-base italic font-semibold leading-10 text-gray-500 md:text-xl lg:text-3xl">
+Hi, I’m SaBa, an artist based in Rome, Italy, with a master’s degree in architecture from Roma Tre University. Here, I present my abstract artworks, primarily inspired by the expressive beauty of Siyah-Mashq Persian calligraphy.
+</p>
 <article class="clearfix">
     <div class="w-full mx-auto mb-20 lg:float-right md:mb-10 lg:w-1/2 lg:mt-0">
         {% capture slider_content %}
