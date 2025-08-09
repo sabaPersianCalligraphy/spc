@@ -49,8 +49,8 @@ layout: default
 <h3 class="text-center text-gray-500 md:-mt-2 racing-sans-one-regular">A Journey Through</h3>
 <h1 class="text-center text-gray-700 md:-mt-8 racing-sans-one-regular">Persian Nastalīq Scripts</h1>
 
-<p class="pt-20 pb-32 text-base italic font-semibold leading-10 text-gray-500 md:text-xl lg:text-3xl">
-Hi, I’m SaBa, an artist based in Rome, Italy, with a master’s degree in architecture from Roma Tre University. Here, I present my abstract artworks, primarily inspired by the expressive beauty of Siyah-Mashq Persian calligraphy.
+<p class="pt-20 pb-32 text-base italic font-semibold leading-10 text-gray-500 md:text-xl">
+Hi my name is SaBa, an artist living in Rome, Italy. I earned my master's degree in architecture from Roma Tre University in 2017. Here, I share my abstract creations, primarily Siyah Mashq Persian calligraphy, where language and visual expression meet. My work grows from a deep awareness of their power to shape our inner landscapes and the worlds we create. I see the value of two forces together guiding us beyond the surface into a quiet space where art becomes a mirror and the connection to oneself unfolds in ways words alone cannot contain.
 </p>
 <article class="clearfix">
     <div class="w-full mx-auto mb-20 lg:float-right md:mb-10 lg:w-1/2 lg:mt-0">
@@ -91,20 +91,39 @@ Hi, I’m SaBa, an artist based in Rome, Italy, with a master’s degree in arch
         </div>
     </div>
     <div class="mt-10 space-y-4">
-        <h3 class="hidden lg:block">The Art of Persian Literature</h3>
-        <h4 class="block lg:hidden">The Art of Persian Literature</h4>
+        <h3 class="hidden lg:block">Echoes of Eternity: The Living Spirit of Persian Literature</h3>
+        <h4 class="block lg:hidden">Echoes of Eternity: The Living Spirit of Persian Literature</h4>
         <p class="text-sm md:text-base lg:text-lg">
-            Persian literature stands among the richest and oldest literary traditions in the world. Countless reasons call for it to be shared, celebrated, and reimagined through art. It embodies the identity, resilience, and enduring beauty of a civilization shaped by centuries of change, conquest, and renewal. As a living cultural memory, it connects generations through poetry and wisdom, reminding us of what it means to be human, in both sorrow and joy.
+            Persian literature is one of the richest and oldest literary traditions in the world. There are countless reasons it deserves to be shared, celebrated, and reimagined through art. It carries the identity, resilience, and enduring beauty of a civilization shaped by centuries of change, conquest, and renewal. As a living cultural memory, it connects generations through poetry and wisdom, reminding us of what it means to be human in both our sorrow and joy.  
+        </p>
+        <p class="text-sm md:text-base lg:text-lg">
+            Persian calligraphy and poetry are not just cultural expressions; they are tools for awakening and integrating the foundational aspects of human perception and consciousness. They nourish and elevate each of the five foundations to help one grow into a higher version of oneself. 
+        </p>
+        <p class="text-sm md:text-base lg:text-lg">
+            Persian poetry is not static; it is a companion. As you evolve: 
+        </p>
+        <ul class="space-y-2 list-disc list-inside md:col-span-4">
+            <li>In youth, it enchants your senses,</li>
+            <li>In life’s struggles, it comforts your heart,</li>
+            <li>In moral challenges, it guides your character,</li>
+            <li>In spiritual quests, it bestows wings,</li>
+            <li>In legacy, it becomes a living echo of who you have become.</li>
+        </ul>
+        <p class="text-sm md:text-base lg:text-lg">
+            It sets your values as high as you can imagine, and, more profoundly, helps you become the vessel in which those values reside.  
+        </p>
+        <p class="text-sm md:text-base lg:text-lg">
+            When your senses are refined, emotions purified, intuition awakened, logic expanded, and imagination liberated, you become a poet of your own life, one who moves with grace, creates with purpose, and sees unity in all things.  
         </p>
     </div>
     <div class="mt-10 space-y-4">
         <h3 class="hidden lg:block">The Silent Script: Where Poetry Becomes Form</h3>
         <h4 class="block lg:hidden">The Silent Script: Where Poetry Becomes Form</h4>
         <p class="text-sm md:text-base lg:text-lg">
-            Turning poetry into visual art adds a new dimension giving it presence and a stillness where meaning quietly unfolds over time. I use letters and words, the foundational elements of language and poetry, as a bridge between inner essence and lived memory, a thread that weaves past into future. Through the fluidity of calligraphy and the depth of poetic wisdom, my work seeks to connect people to enduring values that transcend generations. 
+            Turning poetry into visual art adds a new dimension giving it presence and a stillness where meaning quietly unfolds over time. I use letters and words, the foundational elements of language and poetry, as a bridge between inner essence and lived memory, a thread that weaves past into future. Through the fluidity of calligraphy and the depth of poetic wisdom, my work seeks to connect people to enduring values that transcend generations.  
         </p>
         <p class="text-sm md:text-base lg:text-lg">
-            Language is more than a means of communication; it carries the soul of a culture, the rhythm of its history, and the echoes of its wisdom.<br> In my art, I liberate Persian letters from traditional constraints allowing them to flow freely infused with emotion and meaning beyond the limits of text. Each piece is an invitation to reflect, to remember, and to engage with the timeless truths that shape our shared humanity. 
+            Language is more than a means of communication; it carries the soul of a culture, the rhythm of its history, and the echoes of its wisdom. In my art, I liberate Persian letters from traditional constraints allowing them to flow freely infused with emotion and meaning beyond the limits of text. Each piece is an invitation to reflect, to remember, and to engage with the timeless truths that shape our shared humanity. 
         </p>
         <p class="text-sm md:text-base lg:text-lg">
             By weaving language into visual expression, I hope to create an experience that resonates across time reminding us that the past is always present and the future is shaped by what we choose to carry forward.
