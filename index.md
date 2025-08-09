@@ -50,7 +50,7 @@ layout: default
 <h1 class="text-center text-gray-700 md:-mt-8 racing-sans-one-regular">Persian Nastalīq Scripts</h1>
 
 <p class="pt-20 pb-32 text-base italic font-semibold leading-10 text-gray-500 md:text-xl">
-Hi my name is SaBa, an artist living in Rome, Italy. I earned my master's degree in architecture from Roma Tre University in 2017. Here, I share my abstract creations, primarily Siyah Mashq Persian calligraphy, where language and visual expression meet. My work grows from a deep awareness of their power to shape our inner landscapes and the worlds we create. I see the value of two forces together guiding us beyond the surface into a quiet space where art becomes a mirror and the connection to oneself unfolds in ways words alone cannot contain.
+Hi, my name is SaBa, an artist living in Rome, Italy. I earned my master's degree in architecture from Roma Tre University in 2017. Here, I share my abstract creations, primarily Siyah Mashq Persian calligraphy, where language and visual expression meet. My work grows from a deep awareness of their power to shape our inner landscapes and the worlds we create. I see the value of two forces together guiding us beyond the surface into a quiet space where art becomes a mirror and the connection to oneself unfolds in ways words alone cannot contain.
 </p>
 <article class="clearfix">
     <div class="w-full mx-auto mb-20 lg:float-right md:mb-10 lg:w-1/2 lg:mt-0">
