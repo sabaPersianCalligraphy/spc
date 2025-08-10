@@ -1,0 +1,62 @@
+{% assign share_url   = page.url | absolute_url %}
+{% assign share_title = page.title | default: site.title %}
+{% assign share_text  = page.description | default: site.description %}
+{% assign share_img   = page.og_image | default: page.image | default: site.og_image | absolute_url %}
+
+<div 
+    x-data="shareBox({
+    url: '{{ share_url | escape }}',
+    title: '{{ share_title | escape }}',
+    text: '{{ share_text | escape }}'
+    })" 
+    class="mt-10"
+>
+
+  <div class="w-full">
+    <div class="pb-0.5 flex items-center gap-1">
+        <p class="text-slate-500">{% include icons/share.svg %}</p>
+        <p class="text-xs text-slate-500">Found value? Share with your audience.</p>
+    </div>
+    <div class="flex flex-wrap items-center justify-center gap-4 px-0.5 py-3 text-xs border rounded border-slate-200 shadow-lg">
+
+      <a :href="`https://twitter.com/intent/tweet?url=${encUrl}&text=${encTitle}`" target="_blank" rel="noopener" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">{% include icons/x.svg %}</a>
+      <a :href="`https://www.facebook.com/sharer/sharer.php?u=${encUrl}`" target="_blank" rel="noopener" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">{% include icons/facebook.svg %}</a>
+      <a :href="liHref" target="_blank" rel="noopener" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">{% include icons/linkedin.svg %}</a>
+
+      <a :href="`mailto:saba@sabapersiancalligraphy.com?subject=${encTitle}&body=${encText}%0A%0A${encUrl}`" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">Email</a>
+
+      <button @click="copy()" class="transition duration-150 ease-in-out cursor-pointer text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110">
+        <span x-show="!copied">Copy page link</span>
+        <span x-show="copied" class="text-emerald-600">Copied ✓</span>
+      </button>
+
+      <button x-show="canNative" @click="nativeShare()" class="transition duration-150 ease-in-out cursor-pointer text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110">
+        Share… (native)
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+function shareBox({ url, title, text }) {
+  return {
+    url, title, text,
+    copied: false,
+    get encUrl(){ return encodeURIComponent(this.url) },
+    get encTitle(){ return encodeURIComponent(this.title) },
+    get encText(){ return encodeURIComponent(this.text) },
+    get liHref(){ return `https://www.linkedin.com/sharing/share-offsite/?url=${this.encUrl}` },
+    canNative: !!navigator.share,
+    async copy(){
+      try {
+        await navigator.clipboard.writeText(this.url);
+        this.copied = true; setTimeout(()=> this.copied = false, 1600);
+      } catch(e){ alert('Copy failed'); }
+    },
+    async nativeShare(){
+      try { await navigator.share({ title:this.title, text:this.text, url:this.url }); }
+      catch(_) {}
+    }
+  }
+}
+</script>

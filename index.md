@@ -44,6 +44,9 @@ layout: default
 ---
 
 
+
+
+
 <h3 class="text-center text-gray-500 racing-sans-one-regular">Welcome to</h3>
 <h1 class="text-center text-gray-800 md:-mt-6 racing-sans-one-regular">SaBa Abstract Art:</h1>
 <h3 class="text-center text-gray-500 md:-mt-2 racing-sans-one-regular">A Journey Through</h3>
@@ -133,19 +136,16 @@ Hi, my name is SaBa, an artist living in Rome, Italy. I earned my master's degre
         <h3 class="hidden lg:block">Traces of Shared Light</h3>
         <h4 class="block lg:hidden">Traces of Shared Light</h4>
         <p class="text-sm md:text-base lg:text-lg">
-            In this space, it is not only my own energy that flows; it carries the traces of visionary minds whose work opened the way for my art and words to flow into this digital space. It also holds the luminous spirit of poets and philosophers like Rumi, souls who, with their timeless verses, shattered the boundaries of time and space centuries ago, leaving their essence forever in the hearts of lovers.
+            In this space, my own energy flows alongside the echoes of visionary minds whose brilliance cleared the path for my art and words to take form here. It holds the luminous souls of poets and philosophers like Rumi, kindred spirits who, through their timeless verses, dissolved the boundaries of time and space, leaving their essence to live on in the hearts of all who love and seek.
         </p>
         <p class="text-sm md:text-base lg:text-lg">
-            Most of my works are drawn from the purest treasures of Persian poetry, infused with the energy of love, verses that have always inspired me and set me in motion. These creations are born of love, and it is with that same love that they are shared with you.
+            From the timeless garden of Persian poetry, I gather verses that have moved me, awakened me, and carried me forward. Each work is born in love, shaped by love, and offered to you in that same spirit, an invitation to share in its beauty and light.
         </p>
         <p class="text-sm md:text-base lg:text-lg">
-            Woven into this space are also the traces of my sisters’ kindness and support, Narvan and Razoline, faithful companions who stood beside me in shaping and refining this home for my art. From this bond flows a current of joy and passion that I cherish with all my heart.
+            Woven into this space are the gentle threads of my sisters’ kindness, Narvan and Razoline, steadfast companions whose love has shaped and refined this home for my art. From our shared bond flows a river of joy and passion, a living current I carry with gratitude and cherish with all my heart.
         </p>
         <p class="text-sm md:text-base lg:text-lg">
-           If you are an artist or a lover of art, if you own a gallery or can help bring my works to life through exhibitions or by sharing them in your own spaces, I invite you to leave the traces of your pure light here, so that together, through your presence, we may honor and carry forward the journey toward beauty.
-        </p>
-        <p class="text-sm md:text-base lg:text-lg">
-           And I will record these traces of your energy here with respect and love.
+           If you are an artist or an art lover, guardian of galleries, or a soul who can help these works find their light, whether through exhibitions or by giving them sanctuary in your own space, I invite you to leave the imprint of your pure light here. Together, we can weave a living thread of beauty, carrying it forward so it may shine for generations to come.
         </p>
     </div>
     <div class="w-full mx-auto my-6 md:w-4/5">{% include contactForm.html %}</div>
