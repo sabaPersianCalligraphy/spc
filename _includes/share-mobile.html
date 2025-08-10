@@ -10,31 +10,29 @@
     text: '{{ share_text | escape }}'
     })" 
     class="mt-10"
+    x-cloak
 >
-
-  <div class="w-full">
-    <div class="pb-0.5 flex items-center gap-1">
-        <p class="text-slate-500">{% include icons/share.svg %}</p>
-        <p class="text-xs text-slate-500">Found value? Share with your audience.</p>
+    <div class="w-full">
+        <div class="pb-0.5 flex items-center gap-1">
+            <p class="text-slate-500">{% include icons/share.svg %}</p>
+            <p class="text-xs text-slate-500">Found value? Share with your audience.</p>
+        </div>
+        <div class="flex flex-wrap items-center justify-center gap-4 px-0.5 py-3 text-xs border rounded border-slate-200 shadow-lg">
+            <a :href="`https://twitter.com/intent/tweet?url=${encUrl}&text=${encTitle}`" target="_blank" rel="noopener" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">{% include icons/x.svg %}</a>
+            <a :href="`https://www.facebook.com/sharer/sharer.php?u=${encUrl}`" target="_blank" rel="noopener" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">{% include icons/facebook.svg %}</a>
+            <a :href="liHref" target="_blank" rel="noopener" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">
+                {% include icons/linkedin.svg %}
+            </a>
+            <button @click="copy()" class="transition duration-150 ease-in-out cursor-pointer text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110">
+                <span x-show="!copied">Copy page link</span>
+                <span x-show="copied" class="text-emerald-600">Copied ✓</span>
+            </button>
+            <button x-show="canNative" @click="nativeShare()" class="transition duration-150 ease-in-out cursor-pointer text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110">
+                <span class="icon" aria-hidden="true">{% include icons/share.svg %}</span>
+                <span>Others</span>
+            </button>
+        </div>
     </div>
-    <div class="flex flex-wrap items-center justify-center gap-4 px-0.5 py-3 text-xs border rounded border-slate-200 shadow-lg">
-
-      <a :href="`https://twitter.com/intent/tweet?url=${encUrl}&text=${encTitle}`" target="_blank" rel="noopener" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">{% include icons/x.svg %}</a>
-      <a :href="`https://www.facebook.com/sharer/sharer.php?u=${encUrl}`" target="_blank" rel="noopener" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">{% include icons/facebook.svg %}</a>
-      <a :href="liHref" target="_blank" rel="noopener" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">{% include icons/linkedin.svg %}</a>
-
-      <a :href="`mailto:saba@sabapersiancalligraphy.com?subject=${encTitle}&body=${encText}%0A%0A${encUrl}`" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">Email</a>
-
-      <button @click="copy()" class="transition duration-150 ease-in-out cursor-pointer text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110">
-        <span x-show="!copied">Copy page link</span>
-        <span x-show="copied" class="text-emerald-600">Copied ✓</span>
-      </button>
-
-      <button x-show="canNative" @click="nativeShare()" class="transition duration-150 ease-in-out cursor-pointer text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110">
-        Share… (native)
-      </button>
-    </div>
-  </div>
 </div>
 
 <script>
