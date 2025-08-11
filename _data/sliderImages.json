@@ -2,7 +2,12 @@
   {
     "id": 1,
     "title": "Still Wet — I",
+    "alt": "Still Wet — I, Persian Nastaʿlīq abstract by SaBa",
     "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/sillWet/thumbnail/stillWet-S-02.jpg",
+    "webp":  "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/sillWet/thumbnail/stillWet-S-02.jpg",
+    "width": "1200",
+    "height": "900",
+    "ratio": "4/3",
     "size": "19\" × 26\" (48.26 cm × 66.04 cm)",
     "category": "original",
     "permalink": "/artworks/still-wet-v1/"
@@ -10,7 +15,12 @@
   {
     "id": 2,
     "title": "Samā‘-Red",
+    "alt": "Samā‘-Red, Persian Nastaʿlīq abstract by SaBa",
     "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/sama/thumbnail/sama-Red-01-S-01.jpg",
+    "webp":  "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/sama/thumbnail/sama-Red-01-S-01.jpg",
+    "width": "1200",
+    "height": "900",
+    "ratio": "4/3",
     "size": "19\" × 26\" (48.26 cm × 66.04 cm)",
     "category": "original",
     "permalink": "/artworks/sama/"
@@ -18,7 +28,12 @@
   {
     "id": 3,
     "title": "Samā‘-Green",
+    "alt": "Samā‘-Green, Persian Nastaʿlīq abstract by SaBa",
     "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/sama/thumbnail/sama-green-01-S-01.jpg",
+    "webp":  "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/sama/thumbnail/sama-green-01-S-01.jpg",
+    "width": "1200",
+    "height": "900",
+    "ratio": "4/3",
     "size": "19\" × 26\" (48.26 cm × 66.04 cm)",
     "category": "original",
     "permalink": "/artworks/sama/"
@@ -26,7 +41,12 @@
   {
     "id": 4,
     "title": "Woman Life Freedom",
+    "alt": "Woman Life Freedom, Persian Nastaʿlīq abstract by SaBa",
     "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/WomanLifeFreedom/thumbnail/Woman-Life-Freedom-S-01.jpg",
+    "webp":  "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/WomanLifeFreedom/thumbnail/Woman-Life-Freedom-S-01.jpg",
+    "width": "1200",
+    "height": "900",
+    "ratio": "4/3",
     "size": "19\" × 26\" (48.26 cm × 66.04 cm)",
     "category": "original",
     "permalink": "/artworks/woman-life-freedom/"
@@ -34,7 +54,12 @@
   {
     "id": 5,
     "title": "The Pure Flow",
+    "alt": "The Pure Flow, Persian Nastaʿlīq abstract by SaBa",
     "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/ThePureFlow/thumbnail/the-pure-flow-s-01.jpg",
+    "webp":  "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/ThePureFlow/thumbnail/the-pure-flow-s-01.jpg",
+    "width": "1200",
+    "height": "900",
+    "ratio": "4/3",
     "size": "14\" × 19\" (35.56 cm × 48.26 cm)",
     "category": "original",
     "permalink": "/artworks/the-pure-flow/"
@@ -42,7 +67,12 @@
   {
     "id": 6,
     "title": "The Pearl Within",
+    "alt": "The Pearl Within, Persian Nastaʿlīq abstract by SaBa",
     "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/ThePearlWithin/thumbnail/ThePearlWithin-s-02.jpg",
+    "webp":  "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/ThePearlWithin/thumbnail/ThePearlWithin-s-02.jpg",
+    "width": "1200",
+    "height": "900",
+    "ratio": "4/3",
     "size": "19\" × 26\" (48.26 cm × 66.04 cm)",
     "category": "original",
     "permalink": "/artworks/the-pearl-within/"
@@ -50,7 +80,12 @@
   {
     "id": 7,
     "title": "Embracing Life's Beauty - I",
+    "alt": "Embracing Life's Beauty - I, Persian Nastaʿlīq abstract by SaBa",
     "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-01.jpg",
+    "webp":  "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-01.jpg",
+    "width": "1200",
+    "height": "900",
+    "ratio": "4/3",
     "size": "23\" × 32\" (58.42 cm × 81.28 cm)",
     "category": "original",
     "permalink": "/artworks/embracing-life-beauty-v1/"
@@ -58,7 +93,12 @@
   {
     "id": 8,
     "title": "Embracing Life's Beauty - II",
+    "alt": "Embracing Life's Beauty - II, Persian Nastaʿlīq abstract by SaBa",
     "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-green-01.jpg",
+    "webp":  "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-green-01.jpg",
+    "width": "1200",
+    "height": "900",
+    "ratio": "4/3",
     "size": "19.68\" × 27.55\" (50 cm × 70 cm)",
     "category": "original",
     "permalink": "/artworks/embracing-life-beauty-v2/"
@@ -66,10 +106,14 @@
   {
     "id": 9,
     "title": "Beyond Words",
+    "alt": "Beyond Words, Persian Nastaʿlīq abstract by SaBa",
     "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/BeyondWords/thumbnail/BeyondWords-S-01.jpg",
+    "webp":  "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/BeyondWords/thumbnail/BeyondWords-S-01.jpg",
+    "width": "1200",
+    "height": "900",
+    "ratio": "4/3",
     "size": "18\" × 26\" (45.72 cm × 66.04 cm)",
     "category": "original",
-
     "permalink": "/artworks/beyond-words/"
   }
 ]

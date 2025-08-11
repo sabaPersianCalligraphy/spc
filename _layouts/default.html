@@ -3,10 +3,6 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google Site Verifications -->
-    <meta name="google-site-verification" content="UWGb49NBfnSfrVI-scwsuNHR-eFEKCrab7eBuPqIYgU" />
-    <meta name="google-site-verification" content="Rlrcb_eMGLBCwPsRdzIsAC7kB1ghYdrp6QJgxeKyGbU" />
-    <meta name="google-site-verification" content="FdznAsLDnFfrqXWpiu9DrU4y-U6bkYf5TKqYljiEzg8" />
     {% seo %}
     <link rel="icon" href="/assets/favicons/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -14,7 +10,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
     <link rel="manifest" href="/assets/favicons/site.webmanifest">
 
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
       <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
     <!-- custom styles -->
-    <link rel="stylesheet" href="/assets/css/customStyles.css">
+    <link rel="stylesheet" preload as=style href="/assets/css/customStyles.css">
     {% if page.keywords %}
       <meta name="keywords" content="{{ page.keywords | join: ', ' }}">
     {% endif %}

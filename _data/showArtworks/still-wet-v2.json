@@ -3,6 +3,10 @@
   "images": [
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/sillWet/thumbnail/stilWet-v2-S-02.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Still Wet — II, main view, Persian Nastaʿlīq abstract calligraphy",
       "caption": "Still Wet — II"
     }
   ]

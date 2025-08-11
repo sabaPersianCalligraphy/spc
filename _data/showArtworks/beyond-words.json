@@ -4,14 +4,26 @@
   "images": [
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/BeyondWords/largeImages/BeyondWords-L-01.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Beyond Words — Persian Nastaʿlīq abstract composition by SaBa, black ink on white",
       "caption": "Main view of the artwork"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/BeyondWords/BeyondWords-room-02.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Artwork ‘Beyond Words’ displayed in a modern living room mockup",
       "caption": "The proportions of the artwork in this image are not accurate."
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/BeyondWords/BeyondWords-D-01.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Close-up details of brushstrokes and letterforms in ‘Beyond Words’",
       "caption": "View Details"
     }
   ]

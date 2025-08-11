@@ -12,24 +12,38 @@
   class="fixed z-50 flex flex-col gap-2 left-1 top-1/4" 
   x-cloak
 >
-  <div class="absolute z-30 w-16">
+  <div class="absolute z-30 w-12">
     <div class="pb-0.5">
       <p class="text-xs text-slate-500">Found value? Share with your audience!</p>
     </div>
     <div class="flex flex-col items-center justify-center gap-4 px-0.5 py-3 text-xs border rounded border-slate-200 shadow-lg">
-      <a :href="`https://twitter.com/intent/tweet?url=${encUrl}&text=${encTitle}`" target="_blank" rel="noopener" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">{% include icons/x.svg %}</a>
-      <a :href="`https://www.facebook.com/sharer/sharer.php?u=${encUrl}`" target="_blank" rel="noopener" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">{% include icons/facebook.svg %}</a>
-      <a :href="liHref" target="_blank" rel="noopener" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">
-        {% include icons/linkedin.svg %}
+      <a :href="`https://twitter.com/intent/tweet?url=${encUrl}&text=${encTitle}`" target="_blank" rel="noopener" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">
+        <span aria-hidden="true">
+          {% capture xsvg %}{% include icons/x.svg %}{% endcapture %}
+          {{ xsvg | replace: '<svg', '<svg style="width:16px;height:16px;"' }}
+        </span>
       </a>
+      <a :href="`https://www.facebook.com/sharer/sharer.php?u=${encUrl}`" target="_blank" rel="noopener" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">
+      <span style="width:18px;height:18px;">
+        {% include icons/facebook.svg %}
+      </span>
+      </a>
+      <a :href="liHref" target="_blank" rel="noopener" class="transition duration-150 ease-in-out text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110 ">
+        <span aria-hidden="true">
+          {% capture xsvg %}{% include icons/linkedin.svg %}{% endcapture %}
+          {{ xsvg | replace: '<svg', '<svg style="width:20px;height:20px;"' }}
+        </span>
+      </a>
+      <button x-show="canNative" @click="nativeShare()" class="text-xs text-center transition duration-150 ease-in-out cursor-pointer text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110">
+        <span aria-hidden="true">
+          {% capture xsvg %}{% include icons/share.svg %}{% endcapture %}
+          {{ xsvg | replace: '<svg', '<svg style="width:24px;height:24px;"' }}
+        </span>
+        <span>Others</span>
+      </button>
       <button @click="copy()" class="transition duration-150 ease-in-out cursor-pointer text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110">
         <span x-show="!copied">Copy page link</span>
         <span x-show="copied" class="text-emerald-600">Copied ✓</span>
-      </button>
-
-      <button x-show="canNative" @click="nativeShare()" class="transition duration-150 ease-in-out cursor-pointer text-slate-400 hover:font-bold hover:text-stone-800 hover:scale-110">
-        <span class="icon" aria-hidden="true">{% include icons/share.svg %}</span>
-        <span>Others</span>
       </button>
     </div>
   </div>

@@ -3,10 +3,18 @@
   "images": [
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-green-01.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Embracing Life's Beauty — V.2, main view, Persian Nasta'liq abstract calligraphy in green tones",
       "caption": "Main view of the artwork"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/embracing-life-beauty-room-green-02.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Embracing Life's Beauty — V.2 displayed in a green room mockup (scale not accurate)",
       "caption": "The proportions of the artwork in this image are not accurate."
     }
   ]

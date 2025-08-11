@@ -3,6 +3,10 @@
   "images": [
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/WomanLifeFreedom/thumbnail/Woman-Life-Freedom-S-01.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Woman Life Freedom — main view, Persian Nastaʿlīq abstract calligraphy",
       "caption": "Woman Life Freedom"
     }
   ]

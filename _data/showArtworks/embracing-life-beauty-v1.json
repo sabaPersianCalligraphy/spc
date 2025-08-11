@@ -3,54 +3,106 @@
   "images": [
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-01.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Embracing Life's Beauty — V.1, original artwork, Persian Nasta'liq abstract calligraphy",
       "caption": "Original Artwork"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-collectors-e-burgundy-01.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Embracing Life's Beauty — V.1, Collector's Edition in burgundy",
       "caption": "Collector's Edition of This Artwork"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-collectors-e-white-01.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Embracing Life's Beauty — V.1, Collector's Edition in white",
       "caption": "Collector's Edition of This Artwork"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-collectors-e-brown-light-01.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Embracing Life's Beauty — V.1, Collector's Edition in light brown",
       "caption": "Collector's Edition of This Artwork"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-collectors-e-brown-01.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Embracing Life's Beauty — V.1, Collector's Edition in brown",
       "caption": "Collector's Edition of This Artwork"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-collectors-e-pink-01.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Embracing Life's Beauty — V.1, Collector's Edition in pink",
       "caption": "Collector's Edition of This Artwork"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/embracing-life-beauty-room-orange-01.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Embracing Life's Beauty — V.1 displayed in an orange room mockup",
       "caption": "Collector's Edition of This Artwork"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/embracing-life-beauty-room-orange-03.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Embracing Life's Beauty — V.1 displayed in an orange room mockup (variant 03)",
       "caption": "Collector's Edition of This Artwork"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/embracing-life-beauty-room-burgundy-01.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Embracing Life's Beauty — V.1 displayed in a burgundy room mockup",
       "caption": "Collector's Edition of This Artwork"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/embracing-life-beauty-room-white-02.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Embracing Life's Beauty — V.1 displayed in a white room mockup (variant 02)",
       "caption": "Collector's Edition of This Artwork"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/embracing-life-beauty-room-orange-02.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Embracing Life's Beauty — V.1 displayed in an orange room mockup (variant 02)",
       "caption": "Collector's Edition of This Artwork"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/embracing-life-beauty-room-white-01.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Embracing Life's Beauty — V.1 displayed in a white room mockup",
       "caption": "Collector's Edition of This Artwork"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/embracing-life-beauty.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "Embracing Life's Beauty — V.1 mockup (scale not accurate)",
       "caption": "The proportions of the artwork in this image are not accurate."
     }
   ]

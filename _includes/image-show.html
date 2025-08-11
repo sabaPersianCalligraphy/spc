@@ -4,21 +4,14 @@
 >
     <!-- Thumbnail viewer -->
     <div class="relative w-full h-auto mx-auto md:h-full" x-show="images.length">
-        <!-- Desktop image (with @click) -->
         <img
             :src="images[currentIndex].picture"
-            :alt="artwork.title"
-            class="hidden w-auto h-full mx-auto cursor-pointer md:block"
+            :alt="images[currentIndex].alt"
+            class="block object-cover w-full h-auto mx-auto cursor-default pointer-events-none md:w-auto md:h-full md:cursor-pointer md:pointer-events-auto"
+            sizes="(min-width:768px) 50vw, 100vw"
+            loading="lazy" decoding="async"
             @click="showFull = true"
         />
-
-        <!-- Mobile image (without @click) -->
-        <img
-            :src="images[currentIndex].picture"
-            :alt="artwork.title"
-            class="block w-full h-auto mx-auto md:hidden"
-        />
-
         <div class="absolute top-0 right-0 text-xs bg-black/50 text-white px-2 py-0.5 rounded">
             <span x-text="currentIndex + 1"></span> of <span x-text="images.length"></span>
         </div>
@@ -61,8 +54,9 @@
             <div class="relative" @click.stop>
                 <img
                     :src="images[currentIndex].picture"
-                    :alt="artwork.title"
+                    :alt="images[currentIndex].alt"
                     class="object-contain max-h-screen p-4"
+                    loading="lazy" decoding="async"
                 >
                 <button
                     @click="showFull = false"

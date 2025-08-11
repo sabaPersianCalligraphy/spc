@@ -121,17 +121,18 @@ permalink: /artworks/
             <div class="grid grid-cols-1 gap-x-8 gap-y-0 sm:grid-cols-2 md:grid-cols-3">
                 <template x-for="(art, index) in artworks" :key="index">
                     <a
-                    :href="art.permalink"
-                    class="flex flex-col items-center overflow-hidden transition duration-150 ease-in-out hover:border hover:border-slate-300 hover:shadow"
-                    style="height: 80%"
+                        :href="art.permalink"
+                        :aria-labelledby="`fine-art-title-${index}`"
+                        class="flex flex-col items-center overflow-hidden transition duration-150 ease-in-out hover:border hover:border-slate-300 hover:shadow"
+                        style="height: 80%"
                     >
-                    <!-- Image -->
                     <img
                         :src="art.image"
-                        :alt="art.title"
+                        :alt="art.alt"
+                        loading="lazy" 
+                        decoding="async"
                         class="flex-1 object-cover w-auto rounded h-2/3"
                     >
-
                     <div class="w-full py-1 text-center">
                         <h5 class="text-sm font-semibold text-gray-800" x-text="art.title"></h5>
                         <p class="text-xs text-gray-600" x-text="art.size"></p>
@@ -151,17 +152,19 @@ permalink: /artworks/
                 <template x-for="(art, index) in artworks" :key="index">
                     <template x-if="art.category === 'original'">
                         <a
-                        :href="art.permalink"
-                        class="flex flex-col items-center overflow-hidden transition duration-150 ease-in-out hover:border hover:border-slate-300 hover:shadow"
-                        style="height: 80%"
+                            :href="art.permalink"
+                            :aria-labelledby="`original-art-title-${index}`"
+                            class="flex flex-col items-center overflow-hidden transition duration-150 ease-in-out hover:border hover:border-slate-300 hover:shadow"
+                            style="height: 80%"
                         >
                         <!-- Image -->
                         <img
                             :src="art.image"
-                            :alt="art.title"
+                            :alt="art.alt"
+                            loading="lazy" 
+                            decoding="async"
                             class="flex-1 object-cover w-auto rounded h-2/3"
                         >
-                        
                         <div class="w-full py-1 text-center">
                             <h5 class="text-sm font-semibold text-gray-800" x-text="art.title"></h5>
                             <p class="text-xs text-gray-600" x-text="art.size"></p>
@@ -182,17 +185,19 @@ permalink: /artworks/
                 <template x-for="(art, index) in artworks" :key="index">
                     <template x-if="art.category === 'collectors'">
                         <a
-                        :href="art.permalink"
-                        class="flex flex-col items-center overflow-hidden transition duration-150 ease-in-out hover:border hover:border-slate-300 hover:shadow"
-                        style="height: 80%"
+                            :href="art.permalink"
+                            :aria-labelledby="`collectors-edition-art-title${index}`"
+                            class="flex flex-col items-center overflow-hidden transition duration-150 ease-in-out hover:border hover:border-slate-300 hover:shadow"
+                            style="height: 80%"
                         >
                         <!-- Image -->
                         <img
                             :src="art.image"
-                            :alt="art.title"
+                            :alt="art.alt"
+                            loading="lazy" 
+                            decoding="async"
                             class="flex-1 object-cover w-auto rounded h-2/3"
                         >
-                        
                         <div class="w-full py-1 text-center">
                             <h5 class="text-sm font-semibold text-gray-800" x-text="art.title"></h5>
                             <p class="text-xs text-gray-600" x-text="art.size"></p>

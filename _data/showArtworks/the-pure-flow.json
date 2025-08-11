@@ -3,14 +3,26 @@
   "images": [
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/ThePureFlow/thumbnail/the-pure-flow-s-01.jpg",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "The Pure Flow — main view, Persian Nastaʿlīq abstract calligraphy",
       "caption": "The Pure Flow"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/ThePureFlow/the-pure-flow-room-01.png",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "The Pure Flow displayed in a minimal interior room mockup (scale not accurate)",
       "caption": "Minimal, abstract, and complete — just as it is. (The proportions of the artwork in this image are not accurate.)"
     },
     {
       "picture": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/ThePureFlow/the-pure-flow-room-02.png",
+      "width": "1200",
+      "height": "900",
+      "ratio": "4/3",
+      "alt": "The Pure Flow displayed in a minimal interior room mockup, variant 02 (scale not accurate)",
       "caption": "For me, simplicity and abstraction are enough. This is where completeness begins. (The proportions of the artwork in this image are not accurate.)"
     }
   ]
