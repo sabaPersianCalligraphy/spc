@@ -65,15 +65,13 @@ layout: default
                         <a href="{{ item.permalink }}"
                             aria-label="SaBa Persian Calligraphy | Abstract Art" 
                             class="flex flex-col items-center justify-center">
-                        <figure >
                         <img
                             src="{{ item.image }}"
                             alt="{{ item.title | escape }}"
                             class="object-cover w-auto h-full mx-auto"
                             loading="lazy"
                             >
-                        </figure>
-                        <figcaption  class="w-full text-xs text-center text-stone-400">{{ item.title | escape }}</figcaption>
+                        <p  class="w-full text-xs text-center text-stone-400">{{ item.title | escape }}</p>
                         </a>
                     </li>
                 {% endfor %}
