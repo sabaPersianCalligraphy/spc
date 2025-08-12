@@ -75,7 +75,7 @@ layout: default
             {% include slider-component.html content=slider_content %}
         </div>
         <div class="space-y-4 lg:clear-left">
-            <div class="space-y-4 ">
+            <div class="space-y-4">
                 <h3 class="hidden lg:block">Opening Words:</h3>
                 <h4 class="block lg:hidden">Opening Words:</h4>
                 <p class="text-sm md:text-base lg:text-lg">My works are abstract expressions that emerge at the intersection of language and form, shaped through Siyah-Mashq in Persian Nastaʿlīq script.</p>
@@ -83,7 +83,7 @@ layout: default
                 <p class="text-sm md:text-base lg:text-lg">Most people are taught to read words, not truly see them. We invite viewers to shift their experience from language to presence, from text to texture, and from reading to seeing.</p>
                 <p class="text-sm md:text-base lg:text-lg">Visual language enters the realm where words can no longer reach.</p>
             </div>
-            <div class="space-y-4 ">
+            <div class="space-y-4">
                 <h3 class="hidden lg:block">Following Words:</h3>
                 <h4 class="block lg:hidden">Following Words:</h4>
                 <p class="text-sm md:text-base lg:text-lg">In these works, every letter and word is chosen with deliberate care and intention.</p>
