@@ -45,12 +45,12 @@ layout: default
 
 <div>
     <div>
-        <h3 class="text-center text-gray-500 racing-sans-one-regular">Welcome to</h3>
+        <h3 class="text-center text-gray-500 HelveticaNeue-font-thin">Welcome to</h3>
         <h1 class="text-center text-gray-800 md:-mt-6 racing-sans-one-regular">SaBa Abstract Art:</h1>
-        <h3 class="text-center text-gray-500 md:-mt-2 racing-sans-one-regular">A Journey Through</h3>
-        <h1 class="text-center text-gray-700 md:-mt-8 racing-sans-one-regular">Persian Nastalīq Scripts</h1>
+        <h3 class="text-center text-gray-500 md:-mt-2 HelveticaNeue-font-bold">A Journey Through</h3>
+        <h1 class="text-center text-gray-700 md:-mt-6 racing-sans-one-regular">Persian Nastalīq Scripts</h1>
     </div>
-    <p class="pt-20 pb-32 text-base italic font-semibold leading-10 text-gray-500 md:text-xl">
+    <p class="pt-20 pb-32 italic leading-10 tracking-widest HelveticaNeue-font-bold">
         My name is SaBa, an artist living in Rome, Italy. I earned my master's degree in architecture from Roma Tre University in 2017. Here, I share my abstract creations, primarily Siyah Mashq Persian calligraphy, where language and visual expression meet. My work grows from a deep awareness of their power to shape our inner landscapes and the worlds we create. I see the value of two forces together guiding us beyond the surface into a quiet space where art becomes a mirror and the connection to oneself unfolds in ways words alone cannot contain.
     </p>
     <article class="clearfix">

@@ -68,7 +68,31 @@ height: 35rem;
 
 
 /* Text */
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('./Helvetica Neue/Helvetica Neue.eot') format('eot'),
+        url('./Helvetica Neue/Helvetica Neue.woff') format('woff'),
+        url('./Helvetica Neue/Helvetica Neue.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaNeueRegular';
+    src: url('./Helvetica Neue/HelveticaNeue Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
 
+.HelveticaNeue-font-thin{
+  font-family: "HelveticaNeue", Racing Sans One, Roboto;
+  font-weight: 200;
+  font-style: normal;
+}
+.HelveticaNeue-font-bold{
+  font-family: "HelveticaNeue", Roboto;
+  font-weight: 700;
+  font-style: normal ;
+}
 .arizonia-regular {
   font-family: "Arizonia", cursive;
   font-weight: 400;
