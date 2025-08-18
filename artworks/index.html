@@ -216,7 +216,7 @@ permalink: /artworks/
       artworks: [],
       init() {
         this.artworks = {{ site.data.artworks | jsonify }};
-        this.$nextTick(() => this.select(this.$id('tab', 1)));
+        this.$nextTick(() => this.select(this.$id('tab', 2)));
       },
       select(id) {
         this.selectedId = id;
