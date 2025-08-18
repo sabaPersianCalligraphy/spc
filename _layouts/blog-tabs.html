@@ -16,13 +16,13 @@ layout: default
   <div class="flex flex-col w-full mx-auto md:flex-row">
     <!-- Sidebar -->
     <aside class="w-full py-2 border-b md:border-r md:w-1/7 border-stone-200 md:border-b-0">
-      <ul class="space-y-2">
+      <ul class="space-y-4">
         <template x-for="(blog, index) in blogs" :key="index">
           <li>
             <button
               @click="select(index)"
               :class="selected === index ? 'font-bold text-stone-900' : 'text-stone-500 hover:text-stone-800'"
-              class="w-full text-left"
+              class="w-full text-left text-base"
               x-text="blog.title"
             ></button>
           </li>
