@@ -264,9 +264,9 @@
     "title": "Embracing Life's Beauty - I - C.E.",
     "alt": "SaBa Persian Calligraphy - Abstract Art -Embracing Life's Beauty - I - C.E.",
     "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/EmbracingLifesBeauty/thumbnail/embracing-life-beauty-S-collectors-e-brown-light-01.jpg",
-    "width": "1200",
-    "height": "900",
-    "ratio": "4/3",
+    "width": "450",
+    "height": "531",
+    "ratio": "1",
     "size": "18.11\" × 26\" (46 cm × 66 cm)",
     "price": "N/A",
     "category": "collectors",
@@ -318,5 +318,25 @@
     "passe-partouts": "",
     "frame": "",
     "permalink": "/artworks/embracing-life-beauty-v1/"
+  },
+  {
+    "id": 16,
+    "title": "Migrating Bird",
+    "alt": "SaBa Persian Calligraphy - Abstract Art -Migrating Bird",
+    "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/MigratingBird/Migrating-Bird-s-01.jpg",
+    "width": "1200",
+    "height": "900",
+    "ratio": "4/3",
+    "size": "18.11\" × 26\" (46 cm × 66 cm)",
+    "price": "N/A",
+    "category": "original",
+    "poem": "",
+    "poet": "",
+    "materials": "",
+    "technique": "",
+    "illumination (Tazhib)": "",
+    "passe-partouts": "",
+    "frame": "",
+    "permalink": "/artworks/migrating-bird/"
   }
 ]

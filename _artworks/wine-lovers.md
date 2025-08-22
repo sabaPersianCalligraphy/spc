@@ -1,6 +1,6 @@
 ---
 title: Wine Lovers
-description: A soulful tribute to Rumi, this artwork reflects the unseen language of the heart—where empathy, silence, and sacred geometry speak beyond words.
+description: Rumi’s Ghazal 516 the “tan-tan” beat mirrors classical meter, contrasting ecstatic wine, drinkers with body-worshipers; Siyah Mashq echoes life’s hidden rhythm.
 keywords:
   - persian calligraphy
   - abstract art
@@ -21,6 +21,21 @@ keywords:
   - art commission prices
   - average art commission prices
   - persian calligraphy commission
+  - Rumi
+  - Divan-e Shams
+  - Ghazal 516
+  - tan-tan
+  - scansion
+  - aruz
+  - Persian prosody
+  - meter
+  - Siyah Mashq
+  - sama
+  - symbolism
+  - wine-drinkers
+  - body-worshipers
+  - Persian calligraphy
+  - rhythm of life
 
 image: https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/wineLovers/wine-Lovers-s-01.jpg
 layout: artwork
@@ -39,7 +54,7 @@ price: Available on inquiry
 shipping: Free
 poet: Rumi (1207-1273)
 poem: Wine lovers immerse themselves in life's pleasures.
-published: July 20, 2025
+published: August 20, 2025
 
 ---
 
@@ -77,6 +92,6 @@ published: July 20, 2025
         The phrase “tan-tan tan-tan” symbolizes the hidden rhythm of life, the subtle music that the wine-drinkers feel and dance to with their whole being, while for the body-worshipers it remains just a hollow, meaningless echo. This verse is an invitation to move beyond appearances and listen to the silent music flowing through the depths of being and the fabric of each moment.
     </p>
     <p class="text-lg leading-8">
-        "This ghazal is composed for sama, dance, and melody. Jalal al-Din Rumi deeply realized that existence cannot be understood or defined; it can only be experienced, and one can only truly dance with existence itself."
+        "This Ghazal is composed for sama, dance, and melody. Jalal al-Din Rumi deeply realized that existence cannot be understood or defined; it can only be experienced, and one can only truly dance with existence itself."
     </p>
 </div>
