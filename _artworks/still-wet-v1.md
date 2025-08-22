@@ -34,18 +34,17 @@ published: July 20, 2025
 ---
 
 
-<div class="space-y-5">
-    <p class="showTex">In a world overwhelmed by speed, noise, and constant distraction, the simple act of pausing, embracing silence, and returning to the self has become a profound necessity. Meditation is no longer a luxury, it is a way of being, a gentle path back to balance, clarity, and our true human nature. </p>
-    <p class="showTex">
-        To live is to let it go, to surrender to the moment.
+<div class="space-y-5 tracking-wider">
+    <p class="text-lg leading-8">In a world overwhelmed by speed, noise, and constant distraction, the simple act of pausing, embracing silence, and returning to the self has become a profound necessity. Meditation is no longer a luxury, it is a way of being, a gentle path back to balance, clarity, and our true human nature. </p>
+    <p class="text-lg leading-8">
+        To live is to let it go, to surrender to the moment.<br>
         It is to keep the heart open, and to embrace the present.
     </p>
-    <p class="showTex">In Sohrab Sepehri’s vision, “getting wet” becomes a metaphor for truly being alive, an invitation to let life touch you fully, and refresh your soul with every moment. Like rain on skin, it awakens the senses, stirs the soul, and reminds us of softness, presence, and the quiet grace of being moved by something vast and gentle.</p>
-    <p class="showTex">
-        To get wet is to let life in, with all its light and shadow, its rain and soil, its sorrow and radiance.
-    </p>
-    <p class="showTex">In this light, presence is not found in memories of the past or dreams of the future, but in the living breath of the present moment.</p>
-     <p class="showTex">
+    <p class="text-lg leading-8">In Sohrab Sepehri’s vision, “getting wet” becomes a metaphor for truly being alive, an invitation to let life touch you fully, and refresh your soul with every moment. Like rain on skin, it awakens the senses, stirs the soul, and reminds us of softness, presence, and the quiet grace of being moved by something vast and gentle.</p>
+    <p class="text-lg leading-8">
+        To get wet is to let life in, with all its light and shadow, its rain and soil, its sorrow and radiance.<br>
+        In this light, presence is not found in memories of the past or dreams of the future, but in the living breath of the present moment.</p>
+     <p class="text-lg leading-8">
          Perhaps this is the essence of living:<br>
          To remain in quiet connection,<br>
          with oneself,<br>
@@ -53,7 +52,7 @@ published: July 20, 2025
          with one another,<br>
          And with the world.<br>
      </p>
-    <p class="showTex">The composition of this piece echoes the spirit of the verse: minimal, clear, and intentional, capturing the simplicity Sepehri so deeply admired.</p>
-    <p class="showTex">It captures a moment so still, the paper itself soaked in sensation. </p>
-    <p class="showTex">The traditional layout of this piece was designed by Narvan, featuring the classical Persian manuscript-style framing along the borders. The central paper is handmade Indian cotton delicately mounted onto the passe-partout using the traditional starch-pressing technique for lasting quality and authenticity.</p>
+    <p class="text-lg leading-8">The composition of this piece echoes the spirit of the verse: minimal, clear, and intentional, capturing the simplicity Sepehri so deeply admired.<br>
+        It captures a moment so still, the paper itself soaked in sensation. </p>
+    <p class="text-lg leading-8">The traditional layout of this piece was designed by Narvan, featuring the classical Persian manuscript-style framing along the borders. The central paper is handmade Indian cotton delicately mounted onto the passe-partout using the traditional starch-pressing technique for lasting quality and authenticity.</p>
 </div>

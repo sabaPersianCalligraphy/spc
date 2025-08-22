@@ -90,7 +90,7 @@ height: 35rem;
 }
 .HelveticaNeue-font-bold{
   font-family: "HelveticaNeue", Roboto;
-  font-weight: 700;
+  font-weight: 800;
   font-style: normal ;
 }
 .arizonia-regular {
@@ -170,11 +170,6 @@ h6 {
   h1 { font-size: 4rem; }
 }
 
-
-.showTex {
-  font-size: 18px;
-  line-height: 32px;
-}
 
 hr {
   height: 1px;
