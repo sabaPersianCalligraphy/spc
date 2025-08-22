@@ -39,7 +39,7 @@ keywords:
   - modern iranian art
   - SaBa Art Gallery
 
-image: https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/HomePage/home-page-saba.persian-calligraphy.jpg
+image: https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/HomePage/home-page-saba.persian-calligraphy-2.jpg
 layout: default
 ---
 
