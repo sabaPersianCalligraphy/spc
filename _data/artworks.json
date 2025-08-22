@@ -41,9 +41,9 @@
   },
   {
     "id": 3,
-    "title": "Samā‘-Red",
-    "alt": "SaBa Persian Calligraphy - Abstract Art -Samā‘-Red",
-    "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/sama/thumbnail/sama-Red-01-S-01.jpg",
+    "title": "The Pearl Within",
+    "alt": "SaBa Persian Calligraphy - Abstract Art -The Pearl Within",
+    "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/ThePearlWithin/thumbnail/ThePearlWithin-s-02.jpg",
     "width": "1200",
     "height": "900",
     "ratio": "4/3",
@@ -57,7 +57,7 @@
     "illumination (Tazhib)": "",
     "passe-partouts": "",
     "frame": "",
-    "permalink": "/artworks/sama/"
+    "permalink": "/artworks/the-pearl-within/"
   },
   {
     "id": 4,
@@ -119,15 +119,15 @@
     "frame": "",
     "permalink": "/artworks/embracing-life-beauty-v1/"
   },
-  {
+    {
     "id": 7,
-    "title": "The Pearl Within",
-    "alt": "SaBa Persian Calligraphy - Abstract Art -The Pearl Within",
-    "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/ThePearlWithin/thumbnail/ThePearlWithin-s-02.jpg",
+    "title": "Wine Lovers",
+    "alt": "SaBa Persian Calligraphy - Abstract Art - Wine Lovers",
+    "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/wineLovers/wine-Lovers-s-01.jpg",
     "width": "1200",
     "height": "900",
     "ratio": "4/3",
-    "size": "19\" × 26\" (48.26 cm × 66.04 cm)",
+    "size": "16\" × 24\" (40 cm × 60 cm)",
     "price": "N/A",
     "category": "original",
     "poem": "",
@@ -137,7 +137,7 @@
     "illumination (Tazhib)": "",
     "passe-partouts": "",
     "frame": "",
-    "permalink": "/artworks/the-pearl-within/"
+    "permalink": "/artworks/wine-lovers/"
   },
   {
     "id": 8,
@@ -321,13 +321,13 @@
   },
   {
     "id": 16,
-    "title": "Wine Lovers",
-    "alt": "SaBa Persian Calligraphy - Abstract Art - Wine Lovers",
-    "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/wineLovers/wine-Lovers-s-01.jpg",
+    "title": "Samā‘-Red",
+    "alt": "SaBa Persian Calligraphy - Abstract Art -Samā‘-Red",
+    "image": "https://storage.googleapis.com/artworks_img_public_bucket/saba-persian-calligraphy/sama/thumbnail/sama-Red-01-S-01.jpg",
     "width": "1200",
     "height": "900",
     "ratio": "4/3",
-    "size": "16\" × 24\" (40 cm × 60 cm)",
+    "size": "19\" × 26\" (48.26 cm × 66.04 cm)",
     "price": "N/A",
     "category": "original",
     "poem": "",
@@ -337,7 +337,8 @@
     "illumination (Tazhib)": "",
     "passe-partouts": "",
     "frame": "",
-    "permalink": "/artworks/wine-lovers/"
+    "permalink": "/artworks/sama/"
   }
+  
 
 ]
