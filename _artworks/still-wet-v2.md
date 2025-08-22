@@ -31,7 +31,7 @@ shipping: Free
 poet: Sohrab Sepehri (1928-1980)
 poem:  Life is getting wet over and over.
 published: July 21, 2025
-videoSrc: https://www.youtube.com/embed/wSHzpOvMKA0
+videoSrc: https://www.youtube-nocookie.com/embed/wSHzpOvMKA0
 ---
 
 

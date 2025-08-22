@@ -80,15 +80,19 @@ layout: default
     </div>
 
     {% if page.videoSrc %}
-    <div  class="mt-10">
+    <div  class="mt-10 relative aspect-video">
         <iframe
-        width="100%"
-        height="480"
-        src="{{ page.videoSrc }}"
-        title="Video title"
-        frameborder="0"
-        allowfullscreen
-        class="shadow-lg rounded-xl">
+            width="100%"
+            height="480"
+            src="{{ page.videoSrc }}"
+            frameborder="0"
+            title="{{ title | default: 'YouTube video' }}"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            class="absolute inset-0 w-full h-full"
+        >
         </iframe>
     </div>
     {% endif %}
