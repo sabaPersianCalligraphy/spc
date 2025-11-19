@@ -48,7 +48,6 @@ materials: Handmade Italian 100% cotton paper, Rohrers Antiktusche ink, reed pen
 technique: Persian calligraphy- Siyah-Mashq, Nastaʿlīq
 calligrapher: SaBa
 illumination: Narvan
-frame: Not included 
 passe-partouts: 
 price: Available on inquiry
 shipping: Free
@@ -59,7 +58,7 @@ published: August 20, 2025
 ---
 
 <div class="space-y-5 tracking-wider">
-    <ul class="ml-6 space-y-2 list-disc list-inside md:col-span-4 text-lg leading-8">
+    <ul class="ml-6 space-y-2 text-lg leading-8 list-disc list-inside md:col-span-4">
         <li>Wine lovers immerse themselves in life's pleasures</li>
         <li>
             "Listen to the tan-tan, tan-tan beat, O worshiper of the body."

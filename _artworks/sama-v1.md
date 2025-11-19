@@ -24,7 +24,7 @@ materials: Handmade 100% Indian cotton paper, Schmincke acrylic ink.
 technique: Abstraction, Persian calligraphy- Siyah-Mashq, Nastaʿlīq
 calligrapher: SaBa
 illumination: Narvan
-frame: Included, Wooden frame with museum-grade anti-reflective glass
+frame: Includes a high-quality wooden frame with museum-grade anti-reflective glass.
 passe-partouts: Handcrafted, using the traditional starch-pressing technique.
 price: Available on inquiry
 shipping: Free
@@ -68,7 +68,4 @@ published: November 19, 2025
         and to celebrate the oneness that unites us all.<br>
     </p>
     <p class="text-lg leading-8">The illumination and layout of this piece was composed by Narvan, featuring the classical Persian manuscript-style framing along the borders. The central paper is handmade Indian cotton, delicately mounted onto the passe-partout using the traditional starch-pressing technique for lasting quality and authenticity.</p>
-    <p class="text-lg leading-8">
-        Includes a high-quality wooden frame with museum-grade anti-reflective glass.
-    </p>
 </div>

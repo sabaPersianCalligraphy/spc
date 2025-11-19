@@ -33,7 +33,6 @@ materials: Handmade Italian 100% cotton paper, Rohrers Antiktusche ink, reed pen
 technique: Persian calligraphy- Siyah-Mashq, Nastaʿlīq
 calligrapher: SaBa
 illumination: Narvan
-frame: Not included 
 passe-partouts: Handcrafted, using the traditional starch-pressing technique for lasting quality and authenticity.
 price: Available on inquiry
 shipping: Free

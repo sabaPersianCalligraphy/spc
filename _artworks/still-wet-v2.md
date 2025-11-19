@@ -24,7 +24,6 @@ materials: Handmade 100% Indian cotton paper, Schmincke acrylic ink, and a handc
 technique: Persian calligraphy- Siyah-Mashq, Nastaʿlīq
 calligrapher: SaBa
 illumination: Narvan
-frame: Not included 
 passe-partouts: Handcrafted, using the traditional starch-pressing technique for lasting quality and authenticity.
 price: Available on inquiry
 shipping: Free

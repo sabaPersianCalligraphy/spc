@@ -64,6 +64,12 @@ layout: default
                 <span class="font-bold text-stone-800">Passe-partouts:</span>
                 <span>{{ page.passe-partouts }}</span>
             </p>
+            {% if page.frame %}
+                <p class="text-sm text-gray-600">
+                    <span class="font-bold text-stone-800">Frame:</span>
+                    <span>{{ page.frame }}</span>
+                </p>
+            {% endif %}
             <p class="text-sm text-gray-600">
                 <span class="font-bold text-stone-800">Price:</span>
                 <span>{{ page.price }}</span>
@@ -80,7 +86,7 @@ layout: default
     </div>
 
     {% if page.videoSrc %}
-    <div  class="mt-10 relative aspect-video">
+    <div  class="relative mt-10 aspect-video">
         <iframe
             width="100%"
             height="480"

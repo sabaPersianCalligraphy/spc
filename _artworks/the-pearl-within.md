@@ -25,7 +25,6 @@ materials: Handmade Indian 100% cotton paper, Handmade ink for traditional Persi
 technique: Persian calligraphy- Siyah-Mashq, Nastaʿlīq
 calligrapher: SaBa
 illumination: Narvan
-frame: Not included 
 passe-partouts: Handcrafted, using the traditional starch-pressing technique for lasting quality and authenticity.
 price: Available on inquiry
 shipping: Free
@@ -36,7 +35,7 @@ published: July 20, 2025
 <div class="space-y-5 tracking-wider">
     <p class="text-lg leading-8">Life is a process of inner transformation. Within the shell, the birth of a pearl begins not in peace, but in discomfort with the intrusion of something unwanted, foreign, and abrasive. Yet, this very disturbance becomes the catalyst for a quiet and patient transformation. Layer by layer, the shell embraces the irritant, softens it, and over time, creates its most precious treasure.</p>
     <p class="text-lg leading-8">Art, for me, is much the same. Calligraphy is an inner journey, sometimes born from pain and pressure, other times from a deep love of beauty. It begins in silence, shaped by repetition and patience, emerging from a point so small and hidden, yet holding within it the quiet power to transform.</p>
-    <p class="text-lg leading-8 italic">After all, what is life, if not the chance to be transformed?</p>
+    <p class="text-lg italic leading-8">After all, what is life, if not the chance to be transformed?</p>
     <p class="text-lg leading-8">Amid the silence of existence, the human being is like a shell sent into this world to form an inner gem; a pearl shaped not by outerward polish, but by inner experience, quiet reflection, and the patient endurance of growth.</p>
     <p class="text-lg leading-8">“Life is to forge a pearl within one’s shell.” This profound verse invites us to pause and reflect on our deeper purpose. What greater mission is there than to take our wounds, the weight of pressure, and the stillness of solitude, and transform them into light? A pearl formed in silence, radiant, and enduring, luminous at its core, reminds us that beauty is born from within.</p>
     <p class="text-lg leading-8">A point, the fundamental element of visual art, is not just a mark in space. It becomes an active, generative force. It is the beginning, the seed, the spark of transformation. From within the composition, the point radiates energy, as if the surrounding forms, letters, and strokes draw life from it, like layers of a shell nurturing a grain of sand into a pearl. It is still, but never passive; it is presence crystalized into form.<br>
