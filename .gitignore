@@ -1,33 +1,25 @@
-# Jekyll output and caches
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/auth.json
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
 _site/
-.jekyll-cache/
-.sass-cache/
-
-# Bundler
-.bundle/
-vendor/
-*.gem
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.bak
-
-# Node (if using PostCSS / Tailwind via npm)
-node_modules/
-package-lock.json
-
-# Ruby Bundler files
 Gemfile.lock
-
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
-ehthumbs.db
-
-# VSCode or other editors
-.vscode/
-.idea/

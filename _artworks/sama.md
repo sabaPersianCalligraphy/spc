@@ -49,7 +49,8 @@ published: July 20, 2025
     <p class="text-lg leading-8">
         The repetition of “و” the Farsi equivalent of “and” in this verse and throughout the calligraphy transcends its role as a simple conjunction. It becomes rhythm, movement, a spiritual pulse that breathes life into the text.<br>
         And humanity... and light... and plants... and insects... and... and... and...<br>
-        The letter (و) "vā" with its graceful, spiraling curve, dances like a whirling Dervish, ever turning, ever uniting. It is more than a letter; it is a sacred gesture of meaning: a bridge between word and image, sound and silence, the part and the whole.<br>
+        The letter (و) "vāv" with its graceful, spiraling curve, dances like a whirling Dervish, ever turning, ever uniting.<br>
+        And within this endless turning, the vāvs arise like the Three Graces, sometimes close in circling, sometimes drifting apart, yet always moving with an open heart at the center. It is more than a letter; it is a sacred gesture of meaning: a bridge between word and image, sound and silence, the part and the whole.<br>
         Each “و” in this piece is a doorway, an invitation to acceptance, to embracing difference, to the beauty of coexistence.
     </p>
     <p class="text-lg leading-8">
