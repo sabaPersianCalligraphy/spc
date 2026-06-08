@@ -35,5 +35,5 @@ published: Jun 07, 2026
 
 
 <div class="space-y-5 tracking-wider">
-    <p class="text-2xl leading-8 text-center">More Details Comming Soon...<p><br>
+    <p class="text-2xl leading-8 text-center">More Details Comming Soon...</p><br>
 </div>
