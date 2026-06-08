@@ -28,12 +28,12 @@ passe-partouts: Handcrafted, using the traditional starch-pressing technique for
 price: Sold
 shipping: Free
 poet: Saadi Shirazi(1210-1291)
-poem: O caravan leader, move slowly, for the peace of my soul is leaving
+poem: O caravan leader, move slowly, for the peace of my soul is leaving.
       And the heart I once carried within me goes away with my beloved.
 published: Jun 07, 2026
 ---
 
 
 <div class="space-y-5 tracking-wider">
-    <p class="text-2xl leading-8 text-center">Comming Soon...<br>
+    <p class="text-2xl leading-8 text-center">More Details Comming Soon...<p><br>
 </div>
