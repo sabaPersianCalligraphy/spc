@@ -25,12 +25,13 @@ technique: Persian calligraphy- Siyah-Mashq, Nastaʿlīq
 calligrapher: SaBa
 illumination: Narvan
 passe-partouts: Handcrafted, using the traditional starch-pressing technique for lasting quality and authenticity.
-price: Available on inquiry
+price: €2,500
 shipping: Free
 poet: Sohrab Sepehri (1928-1980)
 poem:  Life is getting wet over and over.
 published: July 21, 2025
 videoSrc: https://www.youtube-nocookie.com/embed/wSHzpOvMKA0
+paymentLink: https://buy.stripe.com/6oUfZh7EOcVydGdfuh5Rm00?locale=en
 ---
 
 

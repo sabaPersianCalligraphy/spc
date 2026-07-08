@@ -25,11 +25,12 @@ technique: Persian calligraphy- Siyah-Mashq, Nastaʿlīq
 calligrapher: SaBa
 illumination: Narvan
 passe-partouts: Handcrafted, using the traditional starch-pressing technique for lasting quality and authenticity.
-price: Available on inquiry
+price: €2,500
 shipping: Free
 poet: Sohrab Sepehri (1928-1980)
 poem: Let us not muddy the water.
 published: July 20, 2025
+paymentLink: https://buy.stripe.com/28E4gz5wGaNq1Xvci55Rm01?locale=en
 ---
 
 

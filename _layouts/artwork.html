@@ -70,10 +70,7 @@ layout: default
                     <span>{{ page.frame }}</span>
                 </p>
             {% endif %}
-            <p class="text-sm text-gray-600">
-                <span class="font-bold text-stone-800">Price:</span>
-                <span>{{ page.price }}</span>
-            </p>
+
             <p class="text-sm text-gray-600">
                 <span class="font-bold text-stone-800">Certificate of Authenticity:</span>
                 <span>Each piece comes with a signed Certificate of Authenticity for provenance.</span>
@@ -81,6 +78,26 @@ layout: default
         </div>
     </div>
 
+    {% if page.paymentLink %}
+        <div class="w-full flex flex-col items-end justify-end gap-y-3 mt-10">
+            <p class="text-base text-gray-600">
+                <span class="font-bold text-stone-800">Price:</span>
+                <span>{{ page.price }}</span>
+            </p>
+
+            <a
+                href="{{page.paymentLink}}"
+                target="_blank"
+                rel="noopener"
+            >
+              <button
+                    class="px-4 py-1 text-sm text-white bg-black rounded hover:bg-gray-800 transition duration-150 ease-in-out cursor-pointer"
+                >
+                    Collect This Original Piece
+                </button>
+            </a>
+        </div>
+    {% endif %}
     <div>
         {{ content }}
     </div>
